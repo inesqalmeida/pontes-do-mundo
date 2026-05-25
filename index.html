@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pontes do Mundo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mini-jogos.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <main>
+    <section id="ecra-inicial" class="ecra ativo">
+  <div class="cartao cartao-home cartao-minimo">
+    <p class="intro-jogo">
+      Explora o Mosaico, supera desafios, conquista estrelas<br> e ajuda a reconstruir as pontes do mundo.
+    </p>
+
+    <button id="botao-jogar" type="button">Jogar</button>
+  </div>
+</section>
+
+<section id="ecra-perfil" class="ecra">
+  <div class="cartao">
+    <div class="luma">🧚</div>
+    <h2>Escolhe o teu explorador</h2>
+
+    <label for="nome-jogador" class="label">O teu nome</label>
+    <input type="text" id="nome-jogador" placeholder="Escreve o teu nome" maxlength="24">
+
+    <p class="label">Escolhe um avatar</p>
+
+<div class="avatares avatares-imagem">
+  <button type="button" class="avatar avatar-imagem" data-avatar="assets/avatar-menina-europeia.png" aria-label="Menina europeia">
+    <img src="assets/avatar-menina-europeia.png" alt="Menina europeia">
+  </button>
+
+  <button type="button" class="avatar avatar-imagem" data-avatar="assets/avatar-menina-nepalesa-bengali.png" aria-label="Menina nepalesa ou bengali">
+    <img src="assets/avatar-menina-nepalesa-bengali.png" alt="Menina nepalesa ou bengali">
+  </button>
+
+  <button type="button" class="avatar avatar-imagem" data-avatar="assets/avatar-engracado-2.png" aria-label="Estrela viva mágica">
+    <img src="assets/avatar-engracado-2.png" alt="Estrela viva mágica">
+  </button>
+
+  <button type="button" class="avatar avatar-imagem" data-avatar="assets/avatar-menino-europeu.png" aria-label="Menino europeu">
+    <img src="assets/avatar-menino-europeu.png" alt="Menino europeu">
+  </button>
+
+  <button type="button" class="avatar avatar-imagem" data-avatar="assets/avatar-menino-nepales-bengali.png" aria-label="Menino nepalês ou bengali">
+    <img src="assets/avatar-menino-nepales-bengali.png" alt="Menino nepalês ou bengali">
+  </button>
+
+  <button type="button" class="avatar avatar-imagem" data-avatar="assets/avatar-engracado-1.png" aria-label="Monstrinho simpático">
+    <img src="assets/avatar-engracado-1.png" alt="Monstrinho simpático">
+  </button>
+</div>
+
+    <p id="mensagem-erro" class="mensagem-erro"></p>
+    <button id="botao-comecar" type="button">Começar</button>
+  </div>
+</section>
+
+    <section id="ecra-mapa" class="ecra">
+      <div class="cartao cartao-mapa">
+      
+        <div class="hud-mapa">
+          <div class="hud-linha">
+            <p id="pontuacao-jogador" class="texto pontuacao">⭐ Estrelas: 0</p>
+            <p id="materiais-jogador" class="texto materiais">🧱 Materiais: 0</p>
+          </div>
+
+          <div class="hud-direita">
+            <p id="saudacao-jogador" class="subtitulo"></p>
+            <button id="botao-editar-perfil"
+            class="botao-definicoes" type="button" aria-label="Definições"></button>
+          </div>
+        </div>
+        <aside id="painel-definicoes" class="painel-definicoes oculto" aria-hidden="true">
+  <div class="painel-definicoes-cabecalho">
+    <h2>Definições</h2>
+    <button id="botao-fechar-definicoes" class="botao-fechar-definicoes" type="button" aria-label="Fechar definições">×</button>
+  </div>
+
+  <div class="painel-definicoes-conteudo">
+    <button id="botao-som" class="botao-menu-definicoes" type="button">
+      🔊 Som: ligado
+    </button>
+
+    <button id="botao-voltar-perfil" class="botao-menu-definicoes" type="button">
+      👤 Editar perfil
+    </button>
+
+    <button id="botao-voltar-inicio" class="botao-menu-definicoes" type="button">
+      🏠 Voltar ao início
+    </button>
+  </div>
+</aside>
+
+        <div id="mapa-jogavel" class="mapa-jogavel estado-base" aria-label="Mapa do jogo">
+         <div id="pergaminho-interacao" class="pergaminho-interacao oculto" aria-live="polite">
+            <div class="pergaminho-rolo pergaminho-rolo-esquerdo"></div>
+            <div id="pergaminho-texto" class="pergaminho-texto"></div>
+            <div class="pergaminho-rolo pergaminho-rolo-direito"></div>
+          </div>
+          <div id="indicador-interacao" class="indicador-interacao oculto">
+            <span class="indicador-simbolo">✦</span>
+            <span class="indicador-texto">Enter</span>
+          </div>
+          <div id="personagem" class="personagem" aria-label="Personagem do jogador">
+            <img id="avatar-mapa" src="" alt="Avatar do jogador">
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <div id="modal-overlay" class="modal-overlay oculto" aria-hidden="true">
+    <div class="modal-caixa" role="dialog" aria-modal="true" aria-labelledby="modal-titulo">
+      <button id="modal-fechar" class="modal-fechar" type="button" aria-label="Fechar">✕</button>
+      <p id="modal-etiqueta" class="modal-etiqueta"></p>
+      <h3 id="modal-titulo" class="modal-titulo"></h3>
+      <div id="modal-conteudo" class="modal-conteudo"></div>
+      <div id="modal-acoes" class="modal-acoes"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="mini-jogos.js"></script>
+</body>
+</html>

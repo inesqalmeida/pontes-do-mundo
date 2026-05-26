@@ -59,6 +59,21 @@ function obterTentativaCaixasPerdidas(ponte) {
 }
 
 
+
+function limparMemoriaCaixasPerdidas() {
+  Object.keys(memoriaCaixasPerdidas).forEach((chave) => {
+    delete memoriaCaixasPerdidas[chave];
+  });
+
+  try {
+    sessionStorage.removeItem(CHAVE_MEMORIA_CAIXAS);
+  } catch (erro) {
+    // Se o browser bloquear sessionStorage, não há memória persistente para limpar.
+  }
+}
+
+window.limparMemoriaCaixasPerdidas = limparMemoriaCaixasPerdidas;
+
 function chaveMemoriaCaixasPerdidas(ponte, tentativa) {
   return `${ponte}-tentativa-${tentativa.tentativa}`;
 }

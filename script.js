@@ -1,5 +1,7 @@
 const STORAGE_KEY_V3 = "pontes_do_mundo_v3";
 const STORAGE_KEY_V1 = "pontes_do_mundo_v1";
+const SAVE_VERSION = 4;
+const SESSION_KEY_CAIXAS_PERDIDAS = "pontes_oficina1_memoria_sessao";
 
 const ecras = {
   inicial: document.getElementById("ecra-inicial"),
@@ -102,6 +104,7 @@ const ponteMeta = {
 
 function criarEstadoInicial() {
   return {
+    versaoSave: SAVE_VERSION,
     nomeJogador: "",
     avatarSelecionado: "",
     estrelas: 0,
@@ -236,7 +239,140 @@ function mostrarEcra(nome) {
 }
 
 function guardarEstado() {
+  estado.versaoSave = SAVE_VERSION;
   localStorage.setItem(STORAGE_KEY_V3, JSON.stringify(estado));
+}
+
+function numeroSeguro(valor, fallback = 0, minimo = 0, maximo = Number.MAX_SAFE_INTEGER) {
+  const numero = Number(valor);
+  if (!Number.isFinite(numero)) return fallback;
+  return Math.min(maximo, Math.max(minimo, Math.floor(numero)));
+}
+
+function textoSeguro(valor, fallback = "") {
+  return typeof valor === "string" ? valor : fallback;
+}
+
+function limparEstadoTemporario() {
+  estado.modalAberto = false;
+  estado.zonaAtual = null;
+  estado.construcaoEmRisco = null;
+  estado.perguntaPendente = { sabores: null, vozes: null, coragem: null };
+}
+
+function limparMemoriaTemporariaMiniJogos() {
+  try {
+    sessionStorage.removeItem(SESSION_KEY_CAIXAS_PERDIDAS);
+  } catch (erro) {
+    // Se o browser bloquear sessionStorage, o jogo deve continuar sem falhar.
+  }
+
+  if (typeof window.limparMemoriaCaixasPerdidas === "function") {
+    window.limparMemoriaCaixasPerdidas();
+  }
+}
+
+function normalizarEstadoGuardado(dados) {
+  if (!dados || typeof dados !== "object" || Array.isArray(dados)) {
+    return criarEstadoInicial();
+  }
+
+  const base = criarEstadoInicial();
+  const normalizado = { ...base };
+
+  normalizado.versaoSave = SAVE_VERSION;
+  normalizado.nomeJogador = textoSeguro(dados.nomeJogador, base.nomeJogador).trim();
+  normalizado.avatarSelecionado = textoSeguro(dados.avatarSelecionado, base.avatarSelecionado);
+  normalizado.estrelas = numeroSeguro(dados.estrelas, base.estrelas, 0, 999);
+  normalizado.somLigado = dados.somLigado === false ? false : true;
+
+  normalizado.materiais = {
+    ponte1: numeroSeguro(dados.materiais?.ponte1, base.materiais.ponte1, 0, 99),
+    ponte2: numeroSeguro(dados.materiais?.ponte2, base.materiais.ponte2, 0, 99),
+    ponte3: numeroSeguro(dados.materiais?.ponte3, base.materiais.ponte3, 0, 99)
+  };
+
+  normalizado.pontes = {
+    ponte1: Boolean(dados.pontes?.ponte1),
+    ponte2: Boolean(dados.pontes?.ponte2),
+    ponte3: Boolean(dados.pontes?.ponte3)
+  };
+
+  // Uma ponte posterior nunca deve estar construída se a ponte anterior não existir.
+  if (!normalizado.pontes.ponte1) {
+    normalizado.pontes.ponte2 = false;
+    normalizado.pontes.ponte3 = false;
+  }
+  if (!normalizado.pontes.ponte2) {
+    normalizado.pontes.ponte3 = false;
+  }
+
+  normalizado.ponte1Construcao = {
+    emConstrucao: Boolean(dados.ponte1Construcao?.emConstrucao),
+    materiaisInvestidos: Boolean(dados.ponte1Construcao?.materiaisInvestidos)
+  };
+
+  if (normalizado.pontes.ponte1) {
+    normalizado.ponte1Construcao.materiaisInvestidos = true;
+    normalizado.ponte1Construcao.emConstrucao = false;
+  }
+
+  const x = numeroSeguro(dados.personagem?.x, base.personagem.x, 0, 100);
+  const y = numeroSeguro(dados.personagem?.y, base.personagem.y, 0, 100);
+  normalizado.personagem = { x, y };
+
+  normalizado.perguntasRecentes = {
+    sabores: Array.isArray(dados.perguntasRecentes?.sabores) ? dados.perguntasRecentes.sabores.slice(-8) : [],
+    vozes: Array.isArray(dados.perguntasRecentes?.vozes) ? dados.perguntasRecentes.vozes.slice(-8) : [],
+    coragem: Array.isArray(dados.perguntasRecentes?.coragem) ? dados.perguntasRecentes.coragem.slice(-8) : []
+  };
+
+  normalizado.estatisticas = {
+    perguntasCertas: {
+      sabores: numeroSeguro(dados.estatisticas?.perguntasCertas?.sabores, base.estatisticas.perguntasCertas.sabores, 0, 999),
+      vozes: numeroSeguro(dados.estatisticas?.perguntasCertas?.vozes, base.estatisticas.perguntasCertas.vozes, 0, 999),
+      coragem: numeroSeguro(dados.estatisticas?.perguntasCertas?.coragem, base.estatisticas.perguntasCertas.coragem, 0, 999)
+    }
+  };
+
+  normalizado.tutorialInicialVisto = Boolean(dados.tutorialInicialVisto);
+  normalizado.tutorialInicialVersao = textoSeguro(dados.tutorialInicialVersao, base.tutorialInicialVersao);
+  normalizado.guiaSaboresAtivo = Boolean(dados.guiaSaboresAtivo);
+  normalizado.guiaOficinaAtivo = Boolean(dados.guiaOficinaAtivo);
+
+  normalizado.avisosOficinaMostrados = {
+    ponte1: Boolean(dados.avisosOficinaMostrados?.ponte1),
+    ponte2: Boolean(dados.avisosOficinaMostrados?.ponte2),
+    ponte3: Boolean(dados.avisosOficinaMostrados?.ponte3)
+  };
+
+  normalizado.avisosOficinaMostradosV2 = {
+    ponte1: Boolean(dados.avisosOficinaMostradosV2?.ponte1),
+    ponte2: Boolean(dados.avisosOficinaMostradosV2?.ponte2),
+    ponte3: Boolean(dados.avisosOficinaMostradosV2?.ponte3)
+  };
+
+  // Estes dados não são estado persistente fiável. Ao reabrir o jogo, devem começar limpos.
+  normalizado.modalAberto = false;
+  normalizado.zonaAtual = null;
+  normalizado.construcaoEmRisco = null;
+  normalizado.perguntaPendente = { sabores: null, vozes: null, coragem: null };
+
+  return normalizado;
+}
+
+function criarNovoPerfil(nome, avatarSelecionado) {
+  const somAnterior = estado.somLigado === false ? false : true;
+
+  limparMemoriaTemporariaMiniJogos();
+
+  estado = criarEstadoInicial();
+  estado.somLigado = somAnterior;
+  estado.nomeJogador = textoSeguro(nome).trim();
+  estado.avatarSelecionado = textoSeguro(avatarSelecionado);
+
+  limparEstadoTemporario();
+  guardarEstado();
 }
 
 function migrarEstadoV1(dadosV1) {
@@ -264,64 +400,45 @@ function carregarEstado() {
   if (guardadoV3) {
     try {
       const dados = JSON.parse(guardadoV3);
-      estado = { ...criarEstadoInicial(), ...dados };
-      estado.materiais = { ...criarEstadoInicial().materiais, ...(dados.materiais || {}) };
-      estado.pontes = { ...criarEstadoInicial().pontes, ...(dados.pontes || {}) };
-      estado.ponte1Construcao = { ...criarEstadoInicial().ponte1Construcao, ...(dados.ponte1Construcao || {}) };
-      if (estado.pontes.ponte1) {
-        estado.ponte1Construcao.materiaisInvestidos = true;
-        estado.ponte1Construcao.emConstrucao = false;
-      }
-      estado.personagem = { ...criarEstadoInicial().personagem, ...(dados.personagem || {}) };
-      estado.perguntasRecentes = { ...criarEstadoInicial().perguntasRecentes, ...(dados.perguntasRecentes || {}) };
-      estado.perguntaPendente = { ...criarEstadoInicial().perguntaPendente, ...(dados.perguntaPendente || {}) };
-      estado.estatisticas = { perguntasCertas: { ...criarEstadoInicial().estatisticas.perguntasCertas, ...(dados.estatisticas?.perguntasCertas || {}) } };
-      estado.tutorialInicialVisto = Boolean(dados.tutorialInicialVisto);
-      estado.tutorialInicialVersao = dados.tutorialInicialVersao || "";
-      estado.guiaSaboresAtivo = Boolean(dados.guiaSaboresAtivo);
-      estado.guiaOficinaAtivo = Boolean(dados.guiaOficinaAtivo);
-      estado.construcaoEmRisco = dados.construcaoEmRisco || null;
-      estado.avisosOficinaMostrados = { ...criarEstadoInicial().avisosOficinaMostrados, ...(dados.avisosOficinaMostrados || {}) };
-      estado.avisosOficinaMostradosV2 = { ...criarEstadoInicial().avisosOficinaMostradosV2, ...(dados.avisosOficinaMostradosV2 || {}) };
-
-      // Estes valores são temporários da sessão e não devem bloquear o jogo ao reabrir.
-      estado.modalAberto = false;
-      estado.zonaAtual = null;
-
+      estado = normalizarEstadoGuardado(dados);
+      guardarEstado();
       return true;
     } catch (erro) {
       console.error("Não foi possível carregar o progresso v3:", erro);
+      localStorage.removeItem(STORAGE_KEY_V3);
     }
   }
 
   const guardadoV1 = localStorage.getItem(STORAGE_KEY_V1);
   if (guardadoV1) {
     try {
-      estado = migrarEstadoV1(JSON.parse(guardadoV1));
-
-      // Estes valores são temporários da sessão e não devem bloquear o jogo ao reabrir.
-      estado.modalAberto = false;
-      estado.zonaAtual = null;
-
+      estado = normalizarEstadoGuardado(migrarEstadoV1(JSON.parse(guardadoV1)));
       guardarEstado();
+      localStorage.removeItem(STORAGE_KEY_V1);
       return true;
     } catch (erro) {
       console.error("Não foi possível migrar o progresso v1:", erro);
+      localStorage.removeItem(STORAGE_KEY_V1);
     }
   }
 
+  estado = criarEstadoInicial();
   return false;
 }
 
 function reiniciarJogoCompleto() {
+  const somAnterior = estado.somLigado === false ? false : true;
+
   sons.musicaFundo.pause();
   sons.musicaFundo.currentTime = 0;
 
-  estado = criarEstadoInicial();
-  estado.somLigado = true;
-
   localStorage.removeItem(STORAGE_KEY_V3);
   localStorage.removeItem(STORAGE_KEY_V1);
+  limparMemoriaTemporariaMiniJogos();
+
+  estado = criarEstadoInicial();
+  estado.somLigado = somAnterior;
+  limparEstadoTemporario();
 
   elementos.inputNome.value = "";
   elementos.mensagemErro.textContent = "";
@@ -330,15 +447,20 @@ function reiniciarJogoCompleto() {
     avatar.classList.remove("selecionado");
   });
 
+  fecharModal();
   fecharPainelDefinicoes();
   atualizarHUD();
+  atualizarPerfil();
   atualizarEstadoVisualMapa();
   atualizarPosicaoPersonagem();
   verificarZonaAtual();
 
   mostrarEcra("inicial");
   atualizarBotaoSom();
-  iniciarMusicaFundo();
+
+  if (estado.somLigado !== false) {
+    iniciarMusicaFundo();
+  }
 }
 
 function atualizarHUD() {
@@ -2484,18 +2606,7 @@ function concluirConstrucaoPonte(ponte, feedbackEl) {
         {
           texto: "Jogar novamente",
           onClick: () => {
-            localStorage.removeItem(STORAGE_KEY_V3);
-            localStorage.removeItem(STORAGE_KEY_V1);
-
-            estado = criarEstadoInicial();
-
-            atualizarHUD();
-            atualizarPerfil();
-            atualizarEstadoVisualMapa();
-            atualizarPosicaoPersonagem();
-
-            fecharModal();
-            mostrarEcra("inicial");
+            reiniciarJogoCompleto();
           }
         },
         {
@@ -2860,18 +2971,20 @@ function configurarInterface() {
       return;
     }
 
-    if (!estado.avatarSelecionado) {
+    const avatarSelecionado = document.querySelector(".avatar.selecionado")?.dataset.avatar || estado.avatarSelecionado;
+
+    if (!avatarSelecionado) {
       elementos.mensagemErro.textContent = "Escolhe um avatar para continuar.";
       return;
     }
 
-    estado.nomeJogador = nome;
+    criarNovoPerfil(nome, avatarSelecionado);
     elementos.mensagemErro.textContent = "";
 
     atualizarHUD();
+    atualizarPerfil();
     atualizarEstadoVisualMapa();
     atualizarPosicaoPersonagem();
-    guardarEstado();
 
     tocarSom("inicio");
     iniciarMusicaFundo();

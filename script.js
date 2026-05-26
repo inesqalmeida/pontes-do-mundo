@@ -1199,16 +1199,17 @@ function podeMoverPara(novoX, novoY) {
 
   /* =========================
      PONTE 1
-     Apenas x:38 e x:40 atravessam.
-     x:32, x:34 e x:36 ficam bloqueados no rio,
-     tal como x:30.
+     Corredor ligeiramente tolerante.
+     A versão anterior só aceitava x:38 ou x:40,
+     o que tornava a passagem demasiado frágil em alguns ecrãs/browser.
   ========================= */
 
   const podeUsarPonte1 =
     estado.pontes.ponte1 &&
-    (percentX === 38 || percentX === 40) &&
-    percentY >= 40 &&
-    percentY <= 74;
+    percentX >= 36 &&
+    percentX <= 42 &&
+    percentY >= 32 &&
+    percentY <= 78;
 
   /* =========================
      PONTE 3

@@ -825,44 +825,39 @@ function mostrarAvisoOficinaDisponivel(area) {
   if (!ponte) return false;
   if (estado.pontes[ponte]) return false;
   if ((estado.materiais[ponte] || 0) >= (ponteMeta[ponte]?.materiaisNecessarios || 9)) return false;
-  if ((estado.estatisticas.perguntasCertas[area] || 0) < 3) return false;
   if ((estado.estrelas || 0) < 3) return false;
 
-  estado.avisosOficinaMostradosV2 = {
-    ...criarEstadoInicial().avisosOficinaMostradosV2,
-    ...(estado.avisosOficinaMostradosV2 || {})
-  };
+  const respostasCertasArea = estado.estatisticas?.perguntasCertas?.[area] || 0;
 
-  if (estado.avisosOficinaMostradosV2[ponte]) return false;
+  // A mensagem deve voltar a aparecer sempre que a criança atinge mais um bloco
+  // de 3 respostas certas. Assim, as perguntas continuam sem bloquear a área,
+  // mas a ida à Oficina é sugerida no momento certo.
+  if (respostasCertasArea <= 0 || respostasCertasArea % 3 !== 0) return false;
 
   abrirModal({
     etiqueta: "",
     titulo: "",
     mostrarFechar: false,
     conteudo: criarPergaminhoNarrativoHTML({
-      titulo: "Já tens 3 estrelas!",
+      titulo: "Já tens estrelas suficientes!",
       classe: "pergaminho-mensagem-simples pergaminho-oficina-disponivel",
       conteudo: `
-        <p>Já tens as 3 estrelas necessárias para trocar pelos materiais de construção da ${nomePonte(ponte)}.</p>
-        <p>Podes continuar este desafio ou ir à Oficina recolher os materiais.</p>
+        <p>Já tens estrelas suficientes para trocar por materiais de construção da ${nomePonte(ponte)}.</p>
+        <p>Podes ir à Oficina agora ou continuar a responder a novos desafios desta área.</p>
       `
     }),
     acoes: [
       {
-        texto: "Vou à oficina recolher os materiais!",
+        texto: "Ir à Oficina buscar materiais",
         onClick: () => {
-          estado.avisosOficinaMostradosV2[ponte] = true;
-          guardarEstado();
           fecharModal();
           mostrarGuiaOficina();
         }
       },
       {
-        texto: "Quero continuar a responder a este desafio",
+        texto: "Continuar a responder",
         secundario: true,
         onClick: () => {
-          estado.avisosOficinaMostradosV2[ponte] = true;
-          guardarEstado();
           fecharModal();
           abrirPerguntaArea(area);
         }
@@ -875,8 +870,10 @@ function mostrarAvisoOficinaDisponivel(area) {
 
 function finalizarPerguntaCorreta(area) {
   if (mostrarAvisoOficinaDisponivel(area)) return;
-  fecharModal();
-  verificarZonaAtual();
+
+  // Enquanto a criança não escolher ir à Oficina, a área continua a gerar
+  // perguntas novas. Isto evita que o desafio pare ao fim de 3 respostas.
+  abrirPerguntaArea(area);
 }
 
 function mostrarIndicadorInteracao(tipo) {

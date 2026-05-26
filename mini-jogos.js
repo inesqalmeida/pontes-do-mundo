@@ -424,15 +424,17 @@ function mostrarDerrotaCaixasPerdidas() {
 const CAMINHO_PONTE1 = "assets/ponte1";
 
 const pecasReconstrucaoPonte1 = [
-  { id: "peca1", imagem: "peca1.png", alvoX: 0, alvoY: 35.22, largura: 24.7, inicioX: 1.2, inicioY: 5 },
-  { id: "peca2", imagem: "peca2.png", alvoX: 26.56, alvoY: 70.58, largura: 32.45, inicioX: 2, inicioY: 62 },
-  { id: "peca3", imagem: "peca3.png", alvoX: 30.6, alvoY: 41.16, largura: 15.17, inicioX: 82, inicioY: 5 },
-  { id: "peca4", imagem: "peca4.png", alvoX: 37.48, alvoY: 14.09, largura: 21.59, inicioX: 38, inicioY: 3 },
-  { id: "peca5", imagem: "peca5.png", alvoX: 54.9, alvoY: 40.88, largura: 16.82, inicioX: 81, inicioY: 35 },
-  { id: "peca6", imagem: "peca6.png", alvoX: 60.73, alvoY: 2.9, largura: 6.42, inicioX: 66, inicioY: 5 },
-  { id: "peca7", imagem: "peca7.png", alvoX: 70.79, alvoY: 0, largura: 8.01, inicioX: 72, inicioY: 4 },
-  { id: "peca8", imagem: "peca8.png", alvoX: 75.63, alvoY: 21.82, largura: 8.21, inicioX: 70, inicioY: 78 },
-  { id: "peca9", imagem: "peca9.png", alvoX: 87.68, alvoY: 15.19, largura: 12.32, inicioX: 85, inicioY: 74 }
+  // As posições iniciais ficam distribuídas pelas margens do cenário para
+  // reduzir ruído visual sobre a ponte destruída. Os alvos mantêm-se iguais.
+  { id: "peca1", imagem: "peca1.png", alvoX: 0, alvoY: 35.22, largura: 24.7, inicioX: -2, inicioY: 8 },
+  { id: "peca2", imagem: "peca2.png", alvoX: 26.56, alvoY: 70.58, largura: 32.45, inicioX: -4, inicioY: 74 },
+  { id: "peca3", imagem: "peca3.png", alvoX: 30.6, alvoY: 41.16, largura: 15.17, inicioX: 88, inicioY: 6 },
+  { id: "peca4", imagem: "peca4.png", alvoX: 37.48, alvoY: 14.09, largura: 21.59, inicioX: 38, inicioY: -3 },
+  { id: "peca5", imagem: "peca5.png", alvoX: 54.9, alvoY: 40.88, largura: 16.82, inicioX: 88, inicioY: 42 },
+  { id: "peca6", imagem: "peca6.png", alvoX: 60.73, alvoY: 2.9, largura: 6.42, inicioX: 12, inicioY: -2 },
+  { id: "peca7", imagem: "peca7.png", alvoX: 70.79, alvoY: 0, largura: 8.01, inicioX: 80, inicioY: -2 },
+  { id: "peca8", imagem: "peca8.png", alvoX: 75.63, alvoY: 21.82, largura: 8.21, inicioX: 12, inicioY: 84 },
+  { id: "peca9", imagem: "peca9.png", alvoX: 87.68, alvoY: 15.19, largura: 12.32, inicioX: 82, inicioY: 82 }
 ];
 
 function iniciarFluxoReconstrucaoPonte1() {

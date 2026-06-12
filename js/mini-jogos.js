@@ -1081,6 +1081,12 @@ function processarMaterialDuplicadoBarcosRio(barco) {
 function processarMaterialUtilPerdidoBarcosRio(barco) {
   if (!estadoBarcosRio || estadoBarcosRio.terminado) return;
 
+  const materialJaEncontrado = estadoBarcosRio.encontrados.includes(barco.item.id);
+
+  if (materialJaEncontrado) {
+    return;
+  }
+
   tocarSom("erro");
   estadoBarcosRio.erros += 1;
 

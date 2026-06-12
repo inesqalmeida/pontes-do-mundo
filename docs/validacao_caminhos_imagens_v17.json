@@ -1,0 +1,908 @@
+{
+  "code_files": [
+    "index.html",
+    "css/style.css",
+    "css/mini-jogos.css",
+    "js/script.js",
+    "js/mini-jogos.js",
+    "ferramentas/auditoria-referencias.js"
+  ],
+  "asset_count": 93,
+  "updated_files": [
+    "css/style.css",
+    "css/mini-jogos.css"
+  ],
+  "references": [
+    {
+      "source": "index.html",
+      "kind": "quoted-string",
+      "ref": "assets/avatar-menina-europeia.png",
+      "exists": true,
+      "resolved": "assets/avatar-menina-europeia.png"
+    },
+    {
+      "source": "index.html",
+      "kind": "quoted-string",
+      "ref": "assets/avatar-menina-europeia.png",
+      "exists": true,
+      "resolved": "assets/avatar-menina-europeia.png"
+    },
+    {
+      "source": "index.html",
+      "kind": "quoted-string",
+      "ref": "assets/avatar-menina-nepalesa-bengali.png",
+      "exists": true,
+      "resolved": "assets/avatar-menina-nepalesa-bengali.png"
+    },
+    {
+      "source": "index.html",
+      "kind": "quoted-string",
+      "ref": "assets/avatar-menina-nepalesa-bengali.png",
+      "exists": true,
+      "resolved": "assets/avatar-menina-nepalesa-bengali.png"
+    },
+    {
+      "source": "index.html",
+      "kind": "quoted-string",
+      "ref": "assets/avatar-engracado-2.png",
+      "exists": true,
+      "resolved": "assets/avatar-engracado-2.png"
+    },
+    {
+      "source": "index.html",
+      "kind": "quoted-string",
+      "ref": "assets/avatar-engracado-2.png",
+      "exists": true,
+      "resolved": "assets/avatar-engracado-2.png"
+    },
+    {
+      "source": "index.html",
+      "kind": "quoted-string",
+      "ref": "assets/avatar-menino-europeu.png",
+      "exists": true,
+      "resolved": "assets/avatar-menino-europeu.png"
+    },
+    {
+      "source": "index.html",
+      "kind": "quoted-string",
+      "ref": "assets/avatar-menino-europeu.png",
+      "exists": true,
+      "resolved": "assets/avatar-menino-europeu.png"
+    },
+    {
+      "source": "index.html",
+      "kind": "quoted-string",
+      "ref": "assets/avatar-menino-nepales-bengali.png",
+      "exists": true,
+      "resolved": "assets/avatar-menino-nepales-bengali.png"
+    },
+    {
+      "source": "index.html",
+      "kind": "quoted-string",
+      "ref": "assets/avatar-menino-nepales-bengali.png",
+      "exists": true,
+      "resolved": "assets/avatar-menino-nepales-bengali.png"
+    },
+    {
+      "source": "index.html",
+      "kind": "quoted-string",
+      "ref": "assets/avatar-engracado-1.png",
+      "exists": true,
+      "resolved": "assets/avatar-engracado-1.png"
+    },
+    {
+      "source": "index.html",
+      "kind": "quoted-string",
+      "ref": "assets/avatar-engracado-1.png",
+      "exists": true,
+      "resolved": "assets/avatar-engracado-1.png"
+    },
+    {
+      "source": "css/style.css",
+      "kind": "css-url",
+      "ref": "../assets/fundo-inicial.png",
+      "exists": true,
+      "resolved": "assets/fundo-inicial.png"
+    },
+    {
+      "source": "css/style.css",
+      "kind": "css-url",
+      "ref": "../assets/fundo-perfil.png",
+      "exists": true,
+      "resolved": "assets/fundo-perfil.png"
+    },
+    {
+      "source": "css/style.css",
+      "kind": "css-url",
+      "ref": "../assets/fundo-perfil.png",
+      "exists": true,
+      "resolved": "assets/fundo-perfil.png"
+    },
+    {
+      "source": "css/style.css",
+      "kind": "css-url",
+      "ref": "../assets/mapa-completo.png",
+      "exists": true,
+      "resolved": "assets/mapa-completo.png"
+    },
+    {
+      "source": "css/style.css",
+      "kind": "css-url",
+      "ref": "../assets/mapa-base.png",
+      "exists": true,
+      "resolved": "assets/mapa-base.png"
+    },
+    {
+      "source": "css/style.css",
+      "kind": "css-url",
+      "ref": "../assets/mapa-ponte1.png",
+      "exists": true,
+      "resolved": "assets/mapa-ponte1.png"
+    },
+    {
+      "source": "css/style.css",
+      "kind": "css-url",
+      "ref": "../assets/mapa-ponte1-ponte2.png",
+      "exists": true,
+      "resolved": "assets/mapa-ponte1-ponte2.png"
+    },
+    {
+      "source": "css/style.css",
+      "kind": "css-url",
+      "ref": "../assets/mapa-completo.png",
+      "exists": true,
+      "resolved": "assets/mapa-completo.png"
+    },
+    {
+      "source": "css/style.css",
+      "kind": "quoted-string",
+      "ref": "../assets/fundo-inicial.png",
+      "exists": true,
+      "resolved": "assets/fundo-inicial.png"
+    },
+    {
+      "source": "css/style.css",
+      "kind": "quoted-string",
+      "ref": "../assets/fundo-perfil.png",
+      "exists": true,
+      "resolved": "assets/fundo-perfil.png"
+    },
+    {
+      "source": "css/style.css",
+      "kind": "quoted-string",
+      "ref": "../assets/fundo-perfil.png",
+      "exists": true,
+      "resolved": "assets/fundo-perfil.png"
+    },
+    {
+      "source": "css/style.css",
+      "kind": "quoted-string",
+      "ref": "../assets/mapa-completo.png",
+      "exists": true,
+      "resolved": "assets/mapa-completo.png"
+    },
+    {
+      "source": "css/style.css",
+      "kind": "quoted-string",
+      "ref": "../assets/mapa-base.png",
+      "exists": true,
+      "resolved": "assets/mapa-base.png"
+    },
+    {
+      "source": "css/style.css",
+      "kind": "quoted-string",
+      "ref": "../assets/mapa-ponte1.png",
+      "exists": true,
+      "resolved": "assets/mapa-ponte1.png"
+    },
+    {
+      "source": "css/style.css",
+      "kind": "quoted-string",
+      "ref": "../assets/mapa-ponte1-ponte2.png",
+      "exists": true,
+      "resolved": "assets/mapa-ponte1-ponte2.png"
+    },
+    {
+      "source": "css/style.css",
+      "kind": "quoted-string",
+      "ref": "../assets/mapa-completo.png",
+      "exists": true,
+      "resolved": "assets/mapa-completo.png"
+    },
+    {
+      "source": "css/mini-jogos.css",
+      "kind": "css-url",
+      "ref": "../assets/oficina.png",
+      "exists": true,
+      "resolved": "assets/oficina.png"
+    },
+    {
+      "source": "css/mini-jogos.css",
+      "kind": "css-url",
+      "ref": "../assets/pergaminho-narrativo.png",
+      "exists": true,
+      "resolved": "assets/pergaminho-narrativo.png"
+    },
+    {
+      "source": "css/mini-jogos.css",
+      "kind": "css-url",
+      "ref": "../assets/pergaminho-narrativo.png",
+      "exists": true,
+      "resolved": "assets/pergaminho-narrativo.png"
+    },
+    {
+      "source": "css/mini-jogos.css",
+      "kind": "quoted-string",
+      "ref": "../assets/oficina.png",
+      "exists": true,
+      "resolved": "assets/oficina.png"
+    },
+    {
+      "source": "css/mini-jogos.css",
+      "kind": "quoted-string",
+      "ref": "../assets/pergaminho-narrativo.png",
+      "exists": true,
+      "resolved": "assets/pergaminho-narrativo.png"
+    },
+    {
+      "source": "css/mini-jogos.css",
+      "kind": "quoted-string",
+      "ref": "../assets/pergaminho-narrativo.png",
+      "exists": true,
+      "resolved": "assets/pergaminho-narrativo.png"
+    },
+    {
+      "source": "js/script.js",
+      "kind": "quoted-string",
+      "ref": "assets/click.ogg",
+      "exists": true,
+      "resolved": "assets/click.ogg"
+    },
+    {
+      "source": "js/script.js",
+      "kind": "quoted-string",
+      "ref": "assets/hover.ogg",
+      "exists": true,
+      "resolved": "assets/hover.ogg"
+    },
+    {
+      "source": "js/script.js",
+      "kind": "quoted-string",
+      "ref": "assets/sucesso.mp3",
+      "exists": true,
+      "resolved": "assets/sucesso.mp3"
+    },
+    {
+      "source": "js/script.js",
+      "kind": "quoted-string",
+      "ref": "assets/erro.mp3",
+      "exists": true,
+      "resolved": "assets/erro.mp3"
+    },
+    {
+      "source": "js/script.js",
+      "kind": "quoted-string",
+      "ref": "assets/erro_forte.mp3",
+      "exists": true,
+      "resolved": "assets/erro_forte.mp3"
+    },
+    {
+      "source": "js/script.js",
+      "kind": "quoted-string",
+      "ref": "assets/ponte.mp3",
+      "exists": true,
+      "resolved": "assets/ponte.mp3"
+    },
+    {
+      "source": "js/script.js",
+      "kind": "quoted-string",
+      "ref": "assets/inicio.mp3",
+      "exists": true,
+      "resolved": "assets/inicio.mp3"
+    },
+    {
+      "source": "js/script.js",
+      "kind": "quoted-string",
+      "ref": "assets/musica_fundo.mp3",
+      "exists": true,
+      "resolved": "assets/musica_fundo.mp3"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "kind": "quoted-string",
+      "ref": "assets/caixa-fechada.png",
+      "exists": true,
+      "resolved": "assets/caixa-fechada.png"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "kind": "quoted-string",
+      "ref": "assets/peca1.png",
+      "exists": true,
+      "resolved": "assets/peca1.png"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "kind": "quoted-string",
+      "ref": "assets/peca2.png",
+      "exists": true,
+      "resolved": "assets/peca2.png"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "kind": "quoted-string",
+      "ref": "assets/peca3.png",
+      "exists": true,
+      "resolved": "assets/peca3.png"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "kind": "quoted-string",
+      "ref": "assets/peca4.png",
+      "exists": true,
+      "resolved": "assets/peca4.png"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "kind": "quoted-string",
+      "ref": "assets/peca5.png",
+      "exists": true,
+      "resolved": "assets/peca5.png"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "kind": "quoted-string",
+      "ref": "assets/peca6.png",
+      "exists": true,
+      "resolved": "assets/peca6.png"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "kind": "quoted-string",
+      "ref": "assets/peca7.png",
+      "exists": true,
+      "resolved": "assets/peca7.png"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "kind": "quoted-string",
+      "ref": "assets/peca8.png",
+      "exists": true,
+      "resolved": "assets/peca8.png"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "kind": "quoted-string",
+      "ref": "assets/peca9.png",
+      "exists": true,
+      "resolved": "assets/peca9.png"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "kind": "quoted-string",
+      "ref": "assets/original-sem-ponte.png",
+      "exists": true,
+      "resolved": "assets/original-sem-ponte.png"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "kind": "quoted-string",
+      "ref": "assets/fundo-ponte1.png",
+      "exists": true,
+      "resolved": "assets/fundo-ponte1.png"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "kind": "quoted-string",
+      "ref": "assets/ponte-construida.png",
+      "exists": true,
+      "resolved": "assets/ponte-construida.png"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "kind": "quoted-string",
+      "ref": "assets/original.png",
+      "exists": true,
+      "resolved": "assets/original.png"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "kind": "quoted-string",
+      "ref": "assets/fundo-rio.png",
+      "exists": true,
+      "resolved": "assets/fundo-rio.png"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "kind": "quoted-string",
+      "ref": "assets/barco.png",
+      "exists": true,
+      "resolved": "assets/barco.png"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "kind": "quoted-string",
+      "ref": "assets/fundo-oficina3.png",
+      "exists": true,
+      "resolved": "assets/fundo-oficina3.png"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "kind": "quoted-string",
+      "ref": "assets/carril.png",
+      "exists": true,
+      "resolved": "assets/carril.png"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "kind": "quoted-string",
+      "ref": "assets/cabo-supenso.png",
+      "exists": true,
+      "resolved": "assets/cabo-supenso.png"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "kind": "quoted-string",
+      "ref": "assets/vagoneta.png",
+      "exists": true,
+      "resolved": "assets/vagoneta.png"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "kind": "quoted-string",
+      "ref": "assets/ponte-inativa.png",
+      "exists": true,
+      "resolved": "assets/ponte-inativa.png"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "kind": "quoted-string",
+      "ref": "assets/ponte-ativa.png",
+      "exists": true,
+      "resolved": "assets/ponte-ativa.png"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "kind": "quoted-string",
+      "ref": "assets/cristal-central.png",
+      "exists": true,
+      "resolved": "assets/cristal-central.png"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "kind": "quoted-string",
+      "ref": "assets/runa-magica.png",
+      "exists": true,
+      "resolved": "assets/runa-magica.png"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "kind": "quoted-string",
+      "ref": "assets/caixa-fechada.png",
+      "exists": true,
+      "resolved": "assets/caixa-fechada.png"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "kind": "quoted-string",
+      "ref": "assets/energia_ativa.png",
+      "exists": true,
+      "resolved": "assets/energia_ativa.png"
+    }
+  ],
+  "missing": [],
+  "dynamic": [
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa1/madeira.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa1/corda.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa1/pregos.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa1/bola.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa1/maca.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa1/pena.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa2/troncos.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa2/martelo.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa2/parafusos.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa2/chapeu.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa2/peixe.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa2/flores.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa3/vigas.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa3/alicate.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa3/correntes.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa3/bolo.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa3/almofada.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa3/guarda_chuva.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/caixas/caixa-aberta.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS_BARCOS}/materiais/madeira.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS_BARCOS}/materiais/corda.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS_BARCOS}/materiais/pregos.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS_BARCOS}/peixe.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS_BARCOS}/maca.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS_BARCOS}/bota.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS_BARCOS}/vigas.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS_BARCOS}/correntes.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS_BARCOS}/martelo.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS_BARCOS}/guarda_chuva.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS_BARCOS}/vaso-flor.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS_BARCOS}/bola.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS_BARCOS}/candeeiro.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS_BARCOS}/caixa-ferramentas.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS_BARCOS}/cimento.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS_BARCOS}/frigideira.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS_BARCOS}/almofada.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS_BARCOS}/chapeu.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa3/vigas.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa3/correntes.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa2/martelo.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa2/peixe.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa1/maca.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa3/almofada.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa1/pregos.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa2/parafusos.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa3/alicate.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa2/chapeu.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa2/flores.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa3/bolo.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa2/troncos.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa1/corda.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa1/madeira.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa1/bola.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa1/pena.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_MATERIAIS}/tentativa3/guarda_chuva.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_PONTE2}/efeito-sucesso.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_PONTE3}/ponte3_estado_0.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_PONTE3}/ponte3_estado_1.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_PONTE3}/ponte3_estado_2.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_PONTE3}/ponte3_estado_final.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_PONTE3}/corda.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_PONTE3}/correntes.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_PONTE3}/cabo-supenso.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_PONTE3}/plataforma.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_PONTE3}/suporte_pesado.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_PONTE3}/pregos.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_PONTE3}/parafusos.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_PONTE3}/alicate.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_PONTE3}/caixa-ferramentas.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_PONTE3}/candeeiro.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_PONTE3}/troncos.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_PONTE3}/madeira.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_PONTE3}/vigas.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_PONTE3}/estrutura_reforcada.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_PONTE3}/runa-magica.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_PONTE3}/cristal-pequeno.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_PONTE3}/cristal-central.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_PONTE3}/mecanismo-magico.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_PONTE3}/nucleo_magico.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_PONTE3}/secao_ponte.png",
+      "reason": "referência dinâmica/template literal"
+    },
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "${CAMINHO_PONTE3}/energia_ativa.png",
+      "reason": "referência dinâmica/template literal"
+    }
+  ],
+  "false_positive": [
+    {
+      "source": "js/mini-jogos.js",
+      "ref": "}.png",
+      "reason": "fragmento de template literal"
+    }
+  ]
+}

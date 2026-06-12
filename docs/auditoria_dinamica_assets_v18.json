@@ -1,0 +1,3148 @@
+{
+  "asset_count": 93,
+  "assets": [
+    "assets/alicate.png",
+    "assets/almofada.png",
+    "assets/avatar-engracado-1.png",
+    "assets/avatar-engracado-2.png",
+    "assets/avatar-menina-europeia.png",
+    "assets/avatar-menina-nepalesa-bengali.png",
+    "assets/avatar-menino-europeu.png",
+    "assets/avatar-menino-nepales-bengali.png",
+    "assets/avatares.png",
+    "assets/barco.png",
+    "assets/bola.png",
+    "assets/bolo.png",
+    "assets/bota.png",
+    "assets/cabo-supenso.png",
+    "assets/caixa-aberta.png",
+    "assets/caixa-fechada.png",
+    "assets/caixa-ferramentas.png",
+    "assets/candeeiro.png",
+    "assets/carril.png",
+    "assets/chapeu.png",
+    "assets/cimento.png",
+    "assets/click.ogg",
+    "assets/corda.png",
+    "assets/correntes.png",
+    "assets/cristal-central.png",
+    "assets/cristal-pequeno.png",
+    "assets/efeito-ativacao.png",
+    "assets/efeito-sucesso.png",
+    "assets/energia-espiral.png",
+    "assets/energia-falha.png",
+    "assets/energia-fluxo.png",
+    "assets/energia-fragmentos.png",
+    "assets/energia_ativa.png",
+    "assets/erro.mp3",
+    "assets/erro_forte.mp3",
+    "assets/estrutura_reforcada.png",
+    "assets/flores.png",
+    "assets/frigideira.png",
+    "assets/fundo-inicial.png",
+    "assets/fundo-oficina3.png",
+    "assets/fundo-perfil.png",
+    "assets/fundo-ponte1.png",
+    "assets/fundo-rio.png",
+    "assets/guarda_chuva.png",
+    "assets/hover.ogg",
+    "assets/inicio.mp3",
+    "assets/lanterna-ativa.png",
+    "assets/lanterna-inativa.png",
+    "assets/maca.png",
+    "assets/madeira.png",
+    "assets/mapa-base.png",
+    "assets/mapa-completo.png",
+    "assets/mapa-ponte1-ponte2.png",
+    "assets/mapa-ponte1.png",
+    "assets/martelo.png",
+    "assets/mecanismo-magico.png",
+    "assets/musica_fundo.mp3",
+    "assets/nucleo_magico.png",
+    "assets/oficina.png",
+    "assets/original-sem-ponte.png",
+    "assets/original.png",
+    "assets/parafusos.png",
+    "assets/peca1.png",
+    "assets/peca2.png",
+    "assets/peca3.png",
+    "assets/peca4.png",
+    "assets/peca5.png",
+    "assets/peca6.png",
+    "assets/peca7.png",
+    "assets/peca8.png",
+    "assets/peca9.png",
+    "assets/peixe.png",
+    "assets/pena.png",
+    "assets/pergaminho-narrativo.png",
+    "assets/plataforma.png",
+    "assets/ponte-ativa.png",
+    "assets/ponte-construida.png",
+    "assets/ponte-inativa.png",
+    "assets/ponte.mp3",
+    "assets/ponte3_estado_0.png",
+    "assets/ponte3_estado_1.png",
+    "assets/ponte3_estado_2.png",
+    "assets/ponte3_estado_final.png",
+    "assets/pregos.png",
+    "assets/runa-magica.png",
+    "assets/secao_ponte.png",
+    "assets/sucesso.mp3",
+    "assets/suporte_pesado.png",
+    "assets/toggle.ogg",
+    "assets/troncos.png",
+    "assets/vagoneta.png",
+    "assets/vaso-flor.png",
+    "assets/vigas.png"
+  ],
+  "code_files": [
+    "css/mini-jogos.css",
+    "css/style.css",
+    "ferramentas/auditoria-referencias.js",
+    "index.html",
+    "js/mini-jogos.js",
+    "js/script.js"
+  ],
+  "static_refs": [
+    {
+      "file": "css/mini-jogos.css",
+      "ref": "../assets/oficina.png",
+      "exists": true
+    },
+    {
+      "file": "css/mini-jogos.css",
+      "ref": "../assets/pergaminho-narrativo.png",
+      "exists": true
+    },
+    {
+      "file": "css/mini-jogos.css",
+      "ref": "../assets/pergaminho-narrativo.png",
+      "exists": true
+    },
+    {
+      "file": "css/style.css",
+      "ref": "../assets/fundo-inicial.png",
+      "exists": true
+    },
+    {
+      "file": "css/style.css",
+      "ref": "../assets/fundo-perfil.png",
+      "exists": true
+    },
+    {
+      "file": "css/style.css",
+      "ref": "../assets/fundo-perfil.png",
+      "exists": true
+    },
+    {
+      "file": "css/style.css",
+      "ref": "../assets/mapa-completo.png",
+      "exists": true
+    },
+    {
+      "file": "css/style.css",
+      "ref": "../assets/mapa-base.png",
+      "exists": true
+    },
+    {
+      "file": "css/style.css",
+      "ref": "../assets/mapa-ponte1.png",
+      "exists": true
+    },
+    {
+      "file": "css/style.css",
+      "ref": "../assets/mapa-ponte1-ponte2.png",
+      "exists": true
+    },
+    {
+      "file": "css/style.css",
+      "ref": "../assets/mapa-completo.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "assets/avatar-menina-europeia.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "assets/avatar-menina-europeia.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "assets/avatar-menina-nepalesa-bengali.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "assets/avatar-menina-nepalesa-bengali.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "assets/avatar-engracado-2.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "assets/avatar-engracado-2.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "assets/avatar-menino-europeu.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "assets/avatar-menino-europeu.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "assets/avatar-menino-nepales-bengali.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "assets/avatar-menino-nepales-bengali.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "assets/avatar-engracado-1.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "assets/avatar-engracado-1.png",
+      "exists": true
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "ref": "assets/caixa-fechada.png",
+      "exists": true
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "ref": "assets/peca1.png",
+      "exists": true
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "ref": "assets/peca2.png",
+      "exists": true
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "ref": "assets/peca3.png",
+      "exists": true
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "ref": "assets/peca4.png",
+      "exists": true
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "ref": "assets/peca5.png",
+      "exists": true
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "ref": "assets/peca6.png",
+      "exists": true
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "ref": "assets/peca7.png",
+      "exists": true
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "ref": "assets/peca8.png",
+      "exists": true
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "ref": "assets/peca9.png",
+      "exists": true
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "ref": "assets/original-sem-ponte.png",
+      "exists": true
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "ref": "assets/fundo-ponte1.png",
+      "exists": true
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "ref": "assets/ponte-construida.png",
+      "exists": true
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "ref": "assets/original.png",
+      "exists": true
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "ref": "assets/fundo-rio.png",
+      "exists": true
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "ref": "assets/barco.png",
+      "exists": true
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "ref": "assets/fundo-oficina3.png",
+      "exists": true
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "ref": "assets/carril.png",
+      "exists": true
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "ref": "assets/cabo-supenso.png",
+      "exists": true
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "ref": "assets/vagoneta.png",
+      "exists": true
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "ref": "assets/ponte-inativa.png",
+      "exists": true
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "ref": "assets/ponte-ativa.png",
+      "exists": true
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "ref": "assets/cristal-central.png",
+      "exists": true
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "ref": "assets/runa-magica.png",
+      "exists": true
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "ref": "assets/caixa-fechada.png",
+      "exists": true
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "ref": "assets/energia_ativa.png",
+      "exists": true
+    },
+    {
+      "file": "js/script.js",
+      "ref": "assets/click.ogg",
+      "exists": true
+    },
+    {
+      "file": "js/script.js",
+      "ref": "assets/hover.ogg",
+      "exists": true
+    },
+    {
+      "file": "js/script.js",
+      "ref": "assets/sucesso.mp3",
+      "exists": true
+    },
+    {
+      "file": "js/script.js",
+      "ref": "assets/erro.mp3",
+      "exists": true
+    },
+    {
+      "file": "js/script.js",
+      "ref": "assets/erro_forte.mp3",
+      "exists": true
+    },
+    {
+      "file": "js/script.js",
+      "ref": "assets/ponte.mp3",
+      "exists": true
+    },
+    {
+      "file": "js/script.js",
+      "ref": "assets/inicio.mp3",
+      "exists": true
+    },
+    {
+      "file": "js/script.js",
+      "ref": "assets/musica_fundo.mp3",
+      "exists": true
+    }
+  ],
+  "missing_static": [],
+  "dynamic_templates": [
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa1/madeira.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa1/corda.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa1/pregos.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa1/bola.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa1/maca.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa1/pena.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa2/troncos.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa2/martelo.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa2/parafusos.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa2/chapeu.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa2/peixe.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa2/flores.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa3/vigas.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa3/alicate.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa3/correntes.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa3/bolo.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa3/almofada.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa3/guarda_chuva.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "\n    <button\n      type=\"button\"\n      class=\"caixa-mini-jogo ${animarCaixas ? \"animada\" : \"\"}\"\n      data-id=\"${objeto.id}\"\n      aria-label=\"Abrir caixa\"\n    >\n      <img\n        class=\"caixa-imagem\"\n        src=\"assets/caixa-fechada.png\"\n        alt=\"\"\n        aria-hidden=\"true\"\n      >\n\n      <img\n        class=\"objeto-caixa\"\n        src=\"${objeto.imagem}\"\n        alt=\"${objeto.nome}\"\n      >\n\n      <span class=\"nome-objeto-caixa\">${objeto.nome}</span>\n    </button>\n  "
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/caixas/caixa-aberta.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS_BARCOS}/materiais/madeira.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS_BARCOS}/materiais/corda.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS_BARCOS}/materiais/pregos.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS_BARCOS}/peixe.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS_BARCOS}/maca.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS_BARCOS}/bota.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS_BARCOS}/vigas.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS_BARCOS}/correntes.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS_BARCOS}/martelo.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS_BARCOS}/guarda_chuva.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS_BARCOS}/vaso-flor.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS_BARCOS}/bola.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS_BARCOS}/candeeiro.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS_BARCOS}/caixa-ferramentas.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS_BARCOS}/cimento.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS_BARCOS}/frigideira.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS_BARCOS}/almofada.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS_BARCOS}/chapeu.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "\n      <div class=\"mini-jogo-barcos\" data-nivel=\"${nivel.numero}\">\n        <header class=\"barcos-cabecalho barcos-cabecalho-limpo\">\n          <div class=\"barcos-info-principal\">\n            <div class=\"barcos-titulo-linha\">\n              <h3 class=\"mini-jogo-titulo\">Barcos no Rio</h3>\n              <span class=\"barcos-nivel-chip\">${nivel.nome}</span>\n            </div>\n            <p class=\"barcos-instrucao-principal\">Escolhe barcos com materiais úteis para a ${nomePonte(ponte)}.</p>\n            <p class=\"barcos-regra-curta\">3 materiais diferentes. Repetidos contam como erro.</p>\n          </div>\n\n          <div class=\"barcos-hud-direita barcos-hud-limpo\">\n            <div class=\"barcos-chip\">Tentativas: <span id=\"barcos-tentativas\">${criarEstrelasErrosBarcosRio(0)}</span></div>\n            <div class=\"barcos-chip\">Materiais da ponte: <span id=\"barcos-total-materiais\">${estado.materiais[ponte] || 0}</span>/9</div>\n            <div class=\"barcos-chip\">Encontrados: <span id=\"barcos-contador\">0</span>/3</div>\n          </div>\n        </header>\n\n        <section class=\"barcos-area-rio\" id=\"barcos-area-rio\" aria-label=\"Rio com barcos em movimento\">\n          <img class=\"barcos-fundo\" src=\"assets/fundo-rio.png\" alt=\"\" aria-hidden=\"true\">\n          <div class=\"barcos-camada\" id=\"barcos-camada\"></div>\n          <div class=\"barcos-efeitos\" id=\"barcos-efeitos\"></div>\n          <div class=\"barcos-mira\" id=\"barcos-mira\" aria-hidden=\"true\"></div>\n        </section>\n\n        <footer class=\"barcos-rodape\">\n          <p class=\"mini-jogo-mensagem\" id=\"barcos-mensagem\">${nivel.mensagemInicial}</p>\n        </footer>\n      </div>\n    "
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa3/vigas.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa3/correntes.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa2/martelo.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa2/peixe.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa1/maca.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa3/almofada.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa1/pregos.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa2/parafusos.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa3/alicate.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa2/chapeu.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa2/flores.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa3/bolo.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa2/troncos.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa1/corda.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa1/madeira.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa1/bola.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa1/pena.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_MATERIAIS}/tentativa3/guarda_chuva.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "\n      <div class=\"mini-cargas\" data-nivel=\"${nivel.numero}\">\n        <header class=\"mini-cargas-cabecalho\">\n          <div class=\"mini-cargas-info\">\n            <div class=\"mini-cargas-titulo-linha\">\n              <h3 class=\"mini-jogo-titulo\">Cargas Perdidas</h3>\n              <span class=\"mini-cargas-nivel\">${nivel.nome}</span>\n            </div>\n            <p class=\"mini-cargas-instrucao\">Triagem final de materiais para a ${nomePonte(ponte)}.</p>\n            <p class=\"mini-cargas-regra\">Quando a vagoneta passar, arrasta apenas a carga para Construção ou Descarte.</p>\n          </div>\n\n          <div class=\"mini-cargas-hud\">\n            <div class=\"mini-cargas-chip\">Tentativas: <span id=\"mini-cargas-tentativas\">${criarEstrelasErrosCargasPerdidas(0)}</span></div>\n            <div class=\"mini-cargas-chip\">Materiais da ponte: <span id=\"mini-cargas-total\">${estado.materiais[ponte] || 0}</span>/9</div>\n            <div class=\"mini-cargas-chip\">Recolhidos: <span id=\"mini-cargas-contador\">0</span>/3</div>\n          </div>\n        </header>\n\n        <section class=\"mini-cargas-area\" id=\"mini-cargas-area\" aria-label=\"Oficina de triagem de cargas\">\n          <img class=\"mini-cargas-fundo\" src=\"assets/fundo-oficina3.png\" alt=\"\" aria-hidden=\"true\">\n          <img class=\"mini-cargas-carril mini-cargas-carril-baixo\" src=\"assets/carril.png\" alt=\"\" aria-hidden=\"true\">\n          <img class=\"mini-cargas-cabo\" src=\"assets/cabo-supenso.png\" alt=\"\" aria-hidden=\"true\">\n\n          <div class=\"mini-cargas-zona mini-cargas-zona-construcao\" data-zona=\"construcao\">\n            <strong>Construção</strong>\n            <span>materiais úteis</span>\n          </div>\n\n          <div class=\"mini-cargas-zona mini-cargas-zona-descarte\" data-zona=\"descarte\">\n            <strong>Descarte</strong>\n            <span>objectos inúteis</span>\n          </div>\n\n\n          <div class=\"mini-cargas-camada\" id=\"mini-cargas-camada\"></div>\n          <div class=\"mini-cargas-efeitos\" id=\"mini-cargas-efeitos\"></div>\n        </section>\n\n        <footer class=\"mini-cargas-rodape\">\n          <p class=\"mini-jogo-mensagem\" id=\"mini-cargas-mensagem\">${nivel.mensagemInicial}</p>\n        </footer>\n      </div>\n    "
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "<img class=\"fluxo2-asset fluxo2-lanterna\" src=\"${CAMINHO_PONTE2}/${acesa ? \"lanterna-ativa\" : \"lanterna-inativa\"}.png\" alt=\"\">"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_PONTE2}/${lanternaAcesa ? \"lanterna-ativa\" : \"lanterna-inativa\"}.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_PONTE2}/efeito-sucesso.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_PONTE3}/ponte3_estado_0.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_PONTE3}/ponte3_estado_1.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_PONTE3}/ponte3_estado_2.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_PONTE3}/ponte3_estado_final.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_PONTE3}/corda.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_PONTE3}/correntes.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_PONTE3}/cabo-supenso.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_PONTE3}/plataforma.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_PONTE3}/suporte_pesado.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_PONTE3}/pregos.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_PONTE3}/parafusos.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_PONTE3}/alicate.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_PONTE3}/caixa-ferramentas.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_PONTE3}/candeeiro.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_PONTE3}/troncos.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_PONTE3}/madeira.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_PONTE3}/vigas.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_PONTE3}/estrutura_reforcada.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_PONTE3}/runa-magica.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_PONTE3}/cristal-pequeno.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_PONTE3}/cristal-central.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_PONTE3}/mecanismo-magico.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_PONTE3}/nucleo_magico.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_PONTE3}/secao_ponte.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "${CAMINHO_PONTE3}/energia_ativa.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "\n        <section class=\"ponte3-mini-jogo ponte3-merge-board ${animacaoFinal ? \"ponte3-com-animacao-final\" : \"\"}\" aria-labelledby=\"ponte3-titulo\">\n          <div class=\"ponte3-cenario\">\n            <img src=\"${imagemPalco}\" alt=\"\" class=\"ponte3-cenario-img\" draggable=\"false\">\n            <span class=\"ponte3-cenario-sombra\"></span>\n            <img src=\"assets/energia_ativa.png\" alt=\"\" class=\"ponte3-energia-travessia\" draggable=\"false\">\n\n            <header class=\"ponte3-cabecalho-board\">\n              <p class=\"ponte3-etiqueta\">A Última Travessia</p>\n              <h2 id=\"ponte3-titulo\">Constrói a ponte final</h2>\n              <p>Produz, organiza, junta e evolui os materiais até completares a ponte.</p>\n            </header>\n\n            <div class=\"ponte3-painel-jogo\">\n              <div class=\"ponte3-info-lateral\">\n                <span class=\"ponte3-progresso-texto\">${etapaTexto}</span>\n                <span class=\"ponte3-progresso-barras\" aria-hidden=\"true\">\n                  <span class=\"ponte3-progresso-barra ${estadoMerge.etapaVisual >= 1 ? \"ativa\" : \"\"}\"></span>\n                  <span class=\"ponte3-progresso-barra ${estadoMerge.etapaVisual >= 2 ? \"ativa\" : \"\"}\"></span>\n                  <span class=\"ponte3-progresso-barra ${estadoMerge.etapaVisual >= 3 ? \"ativa\" : \"\"}\"></span>\n                </span>\n                <p class=\"ponte3-dica\">Dica: quando uma linha fica completa, a caixa deixa de gerar essa base.</p>\n              </div>\n\n              <div class=\"ponte3-tabuleiro\" role=\"grid\" aria-label=\"Tabuleiro de merge da Ponte 3\">\n                ${estadoMerge.slots.map(criarCelula).join(\"\")}\n              </div>\n            </div>\n\n            <p id=\"ponte3-feedback\" class=\"ponte3-feedback-board\" aria-live=\"polite\">${estadoMerge.mensagem}</p>\n          </div>\n        </section>\n      "
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "`${CAMINHO_MATERIAIS}/caixas/caixa-aberta.png`",
+      "kind": "src_assignment"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "`${CAMINHO_PONTE2}/${lanternaAcesa ? \"lanterna-ativa\" : \"lanterna-inativa\"}.png`",
+      "kind": "src_assignment"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "template": "`${CAMINHO_PONTE2}/efeito-sucesso.png`",
+      "kind": "src_assignment"
+    }
+  ],
+  "image_properties": [
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa1/madeira.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa1/corda.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa1/pregos.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa1/bola.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa1/maca.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa1/pena.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa2/troncos.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa2/martelo.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa2/parafusos.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa2/chapeu.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa2/peixe.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa2/flores.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa3/vigas.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa3/alicate.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa3/correntes.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa3/bolo.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa3/almofada.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa3/guarda_chuva.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "assets/peca1.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "assets/peca2.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "assets/peca3.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "assets/peca4.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "assets/peca5.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "assets/peca6.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "assets/peca7.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "assets/peca8.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "assets/peca9.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS_BARCOS}/materiais/madeira.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS_BARCOS}/materiais/corda.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS_BARCOS}/materiais/pregos.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS_BARCOS}/peixe.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS_BARCOS}/maca.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS_BARCOS}/bota.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS_BARCOS}/vigas.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS_BARCOS}/correntes.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS_BARCOS}/martelo.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS_BARCOS}/guarda_chuva.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS_BARCOS}/vaso-flor.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS_BARCOS}/bola.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS_BARCOS}/candeeiro.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS_BARCOS}/caixa-ferramentas.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS_BARCOS}/cimento.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS_BARCOS}/frigideira.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS_BARCOS}/almofada.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS_BARCOS}/chapeu.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa3/vigas.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa3/correntes.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa2/martelo.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa2/peixe.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa1/maca.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa3/almofada.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa1/pregos.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa2/parafusos.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa3/alicate.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa2/chapeu.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa2/flores.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa3/bolo.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa2/troncos.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa1/corda.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa1/madeira.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa1/bola.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa1/pena.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_MATERIAIS}/tentativa3/guarda_chuva.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "assets/caixa-fechada.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_PONTE3}/corda.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_PONTE3}/correntes.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_PONTE3}/cabo-supenso.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_PONTE3}/plataforma.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_PONTE3}/suporte_pesado.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_PONTE3}/pregos.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_PONTE3}/parafusos.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_PONTE3}/alicate.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_PONTE3}/caixa-ferramentas.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_PONTE3}/candeeiro.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_PONTE3}/troncos.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_PONTE3}/madeira.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_PONTE3}/vigas.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_PONTE3}/estrutura_reforcada.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_PONTE3}/runa-magica.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_PONTE3}/cristal-pequeno.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_PONTE3}/cristal-central.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_PONTE3}/mecanismo-magico.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_PONTE3}/nucleo_magico.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_PONTE3}/secao_ponte.png"
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "key": "imagem",
+      "value": "${CAMINHO_PONTE3}/energia_ativa.png"
+    }
+  ],
+  "expected_analysis": [
+    {
+      "expected": "alicate.png",
+      "status": "exact",
+      "matches": [
+        "assets/alicate.png"
+      ]
+    },
+    {
+      "expected": "almofada.png",
+      "status": "exact",
+      "matches": [
+        "assets/almofada.png"
+      ]
+    },
+    {
+      "expected": "bola.png",
+      "status": "exact",
+      "matches": [
+        "assets/bola.png"
+      ]
+    },
+    {
+      "expected": "bolo.png",
+      "status": "exact",
+      "matches": [
+        "assets/bolo.png"
+      ]
+    },
+    {
+      "expected": "bota.png",
+      "status": "exact",
+      "matches": [
+        "assets/bota.png"
+      ]
+    },
+    {
+      "expected": "cabo-supenso.png",
+      "status": "exact",
+      "matches": [
+        "assets/cabo-supenso.png"
+      ]
+    },
+    {
+      "expected": "caixa-fechada.png",
+      "status": "exact",
+      "matches": [
+        "assets/caixa-fechada.png"
+      ]
+    },
+    {
+      "expected": "caixa-ferramentas.png",
+      "status": "exact",
+      "matches": [
+        "assets/caixa-ferramentas.png"
+      ]
+    },
+    {
+      "expected": "candeeiro.png",
+      "status": "exact",
+      "matches": [
+        "assets/candeeiro.png"
+      ]
+    },
+    {
+      "expected": "chapeu.png",
+      "status": "exact",
+      "matches": [
+        "assets/chapeu.png"
+      ]
+    },
+    {
+      "expected": "cimento.png",
+      "status": "exact",
+      "matches": [
+        "assets/cimento.png"
+      ]
+    },
+    {
+      "expected": "corda.png",
+      "status": "exact",
+      "matches": [
+        "assets/corda.png"
+      ]
+    },
+    {
+      "expected": "correntes.png",
+      "status": "exact",
+      "matches": [
+        "assets/correntes.png"
+      ]
+    },
+    {
+      "expected": "cristal-central.png",
+      "status": "exact",
+      "matches": [
+        "assets/cristal-central.png"
+      ]
+    },
+    {
+      "expected": "cristal-pequeno.png",
+      "status": "exact",
+      "matches": [
+        "assets/cristal-pequeno.png"
+      ]
+    },
+    {
+      "expected": "energia_ativa.png",
+      "status": "exact",
+      "matches": [
+        "assets/energia_ativa.png"
+      ]
+    },
+    {
+      "expected": "estrutura_reforcada.png",
+      "status": "exact",
+      "matches": [
+        "assets/estrutura_reforcada.png"
+      ]
+    },
+    {
+      "expected": "flores.png",
+      "status": "exact",
+      "matches": [
+        "assets/flores.png"
+      ]
+    },
+    {
+      "expected": "frigideira.png",
+      "status": "exact",
+      "matches": [
+        "assets/frigideira.png"
+      ]
+    },
+    {
+      "expected": "guarda_chuva.png",
+      "status": "exact",
+      "matches": [
+        "assets/guarda_chuva.png"
+      ]
+    },
+    {
+      "expected": "maca.png",
+      "status": "exact",
+      "matches": [
+        "assets/maca.png"
+      ]
+    },
+    {
+      "expected": "madeira.png",
+      "status": "exact",
+      "matches": [
+        "assets/madeira.png"
+      ]
+    },
+    {
+      "expected": "martelo.png",
+      "status": "exact",
+      "matches": [
+        "assets/martelo.png"
+      ]
+    },
+    {
+      "expected": "mecanismo-magico.png",
+      "status": "exact",
+      "matches": [
+        "assets/mecanismo-magico.png"
+      ]
+    },
+    {
+      "expected": "nucleo_magico.png",
+      "status": "exact",
+      "matches": [
+        "assets/nucleo_magico.png"
+      ]
+    },
+    {
+      "expected": "parafusos.png",
+      "status": "exact",
+      "matches": [
+        "assets/parafusos.png"
+      ]
+    },
+    {
+      "expected": "peca1.png",
+      "status": "exact",
+      "matches": [
+        "assets/peca1.png"
+      ]
+    },
+    {
+      "expected": "peca2.png",
+      "status": "exact",
+      "matches": [
+        "assets/peca2.png"
+      ]
+    },
+    {
+      "expected": "peca3.png",
+      "status": "exact",
+      "matches": [
+        "assets/peca3.png"
+      ]
+    },
+    {
+      "expected": "peca4.png",
+      "status": "exact",
+      "matches": [
+        "assets/peca4.png"
+      ]
+    },
+    {
+      "expected": "peca5.png",
+      "status": "exact",
+      "matches": [
+        "assets/peca5.png"
+      ]
+    },
+    {
+      "expected": "peca6.png",
+      "status": "exact",
+      "matches": [
+        "assets/peca6.png"
+      ]
+    },
+    {
+      "expected": "peca7.png",
+      "status": "exact",
+      "matches": [
+        "assets/peca7.png"
+      ]
+    },
+    {
+      "expected": "peca8.png",
+      "status": "exact",
+      "matches": [
+        "assets/peca8.png"
+      ]
+    },
+    {
+      "expected": "peca9.png",
+      "status": "exact",
+      "matches": [
+        "assets/peca9.png"
+      ]
+    },
+    {
+      "expected": "peixe.png",
+      "status": "exact",
+      "matches": [
+        "assets/peixe.png"
+      ]
+    },
+    {
+      "expected": "pena.png",
+      "status": "exact",
+      "matches": [
+        "assets/pena.png"
+      ]
+    },
+    {
+      "expected": "plataforma.png",
+      "status": "exact",
+      "matches": [
+        "assets/plataforma.png"
+      ]
+    },
+    {
+      "expected": "pregos.png",
+      "status": "exact",
+      "matches": [
+        "assets/pregos.png"
+      ]
+    },
+    {
+      "expected": "runa-magica.png",
+      "status": "exact",
+      "matches": [
+        "assets/runa-magica.png"
+      ]
+    },
+    {
+      "expected": "secao_ponte.png",
+      "status": "exact",
+      "matches": [
+        "assets/secao_ponte.png"
+      ]
+    },
+    {
+      "expected": "suporte_pesado.png",
+      "status": "exact",
+      "matches": [
+        "assets/suporte_pesado.png"
+      ]
+    },
+    {
+      "expected": "troncos.png",
+      "status": "exact",
+      "matches": [
+        "assets/troncos.png"
+      ]
+    },
+    {
+      "expected": "vaso-flor.png",
+      "status": "exact",
+      "matches": [
+        "assets/vaso-flor.png"
+      ]
+    },
+    {
+      "expected": "vigas.png",
+      "status": "exact",
+      "matches": [
+        "assets/vigas.png"
+      ]
+    }
+  ],
+  "asset_variants": {},
+  "candidate_string_matches": [
+    {
+      "file": "js/mini-jogos.js",
+      "value": "madeira",
+      "slug": "madeira",
+      "matches": [
+        "assets/madeira.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Madeira",
+      "slug": "madeira",
+      "matches": [
+        "assets/madeira.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "corda",
+      "slug": "corda",
+      "matches": [
+        "assets/corda.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Corda",
+      "slug": "corda",
+      "matches": [
+        "assets/corda.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "pregos",
+      "slug": "pregos",
+      "matches": [
+        "assets/pregos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Pregos",
+      "slug": "pregos",
+      "matches": [
+        "assets/pregos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "bola",
+      "slug": "bola",
+      "matches": [
+        "assets/bola.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Bola",
+      "slug": "bola",
+      "matches": [
+        "assets/bola.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "maca",
+      "slug": "maca",
+      "matches": [
+        "assets/maca.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Maçã",
+      "slug": "maca",
+      "matches": [
+        "assets/maca.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "pena",
+      "slug": "pena",
+      "matches": [
+        "assets/pena.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Pena",
+      "slug": "pena",
+      "matches": [
+        "assets/pena.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "troncos",
+      "slug": "troncos",
+      "matches": [
+        "assets/troncos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Troncos",
+      "slug": "troncos",
+      "matches": [
+        "assets/troncos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "martelo",
+      "slug": "martelo",
+      "matches": [
+        "assets/martelo.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Martelo",
+      "slug": "martelo",
+      "matches": [
+        "assets/martelo.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "parafusos",
+      "slug": "parafusos",
+      "matches": [
+        "assets/parafusos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Parafusos",
+      "slug": "parafusos",
+      "matches": [
+        "assets/parafusos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "chapeu",
+      "slug": "chapeu",
+      "matches": [
+        "assets/chapeu.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Chapéu",
+      "slug": "chapeu",
+      "matches": [
+        "assets/chapeu.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "peixe",
+      "slug": "peixe",
+      "matches": [
+        "assets/peixe.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Peixe",
+      "slug": "peixe",
+      "matches": [
+        "assets/peixe.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "flores",
+      "slug": "flores",
+      "matches": [
+        "assets/flores.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Flores",
+      "slug": "flores",
+      "matches": [
+        "assets/flores.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "vigas",
+      "slug": "vigas",
+      "matches": [
+        "assets/vigas.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Vigas",
+      "slug": "vigas",
+      "matches": [
+        "assets/vigas.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "alicate",
+      "slug": "alicate",
+      "matches": [
+        "assets/alicate.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Alicate",
+      "slug": "alicate",
+      "matches": [
+        "assets/alicate.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "correntes",
+      "slug": "correntes",
+      "matches": [
+        "assets/correntes.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Correntes",
+      "slug": "correntes",
+      "matches": [
+        "assets/correntes.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "bolo",
+      "slug": "bolo",
+      "matches": [
+        "assets/bolo.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Bolo",
+      "slug": "bolo",
+      "matches": [
+        "assets/bolo.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "almofada",
+      "slug": "almofada",
+      "matches": [
+        "assets/almofada.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Almofada",
+      "slug": "almofada",
+      "matches": [
+        "assets/almofada.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "guarda_chuva",
+      "slug": "guarda-chuva",
+      "matches": [
+        "assets/guarda_chuva.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "corda",
+      "slug": "corda",
+      "matches": [
+        "assets/corda.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Corda",
+      "slug": "corda",
+      "matches": [
+        "assets/corda.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "pregos",
+      "slug": "pregos",
+      "matches": [
+        "assets/pregos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Pregos",
+      "slug": "pregos",
+      "matches": [
+        "assets/pregos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "peixe",
+      "slug": "peixe",
+      "matches": [
+        "assets/peixe.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Peixe",
+      "slug": "peixe",
+      "matches": [
+        "assets/peixe.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "maca",
+      "slug": "maca",
+      "matches": [
+        "assets/maca.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Maçã",
+      "slug": "maca",
+      "matches": [
+        "assets/maca.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "bota",
+      "slug": "bota",
+      "matches": [
+        "assets/bota.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Bota",
+      "slug": "bota",
+      "matches": [
+        "assets/bota.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "correntes",
+      "slug": "correntes",
+      "matches": [
+        "assets/correntes.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "martelo",
+      "slug": "martelo",
+      "matches": [
+        "assets/martelo.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Martelo",
+      "slug": "martelo",
+      "matches": [
+        "assets/martelo.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "vaso-flor",
+      "slug": "vaso-flor",
+      "matches": [
+        "assets/vaso-flor.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "bola",
+      "slug": "bola",
+      "matches": [
+        "assets/bola.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Bola",
+      "slug": "bola",
+      "matches": [
+        "assets/bola.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "candeeiro",
+      "slug": "candeeiro",
+      "matches": [
+        "assets/candeeiro.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Candeeiro",
+      "slug": "candeeiro",
+      "matches": [
+        "assets/candeeiro.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "caixa-ferramentas",
+      "slug": "caixa-ferramentas",
+      "matches": [
+        "assets/caixa-ferramentas.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "cimento",
+      "slug": "cimento",
+      "matches": [
+        "assets/cimento.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Cimento",
+      "slug": "cimento",
+      "matches": [
+        "assets/cimento.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "frigideira",
+      "slug": "frigideira",
+      "matches": [
+        "assets/frigideira.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Frigideira",
+      "slug": "frigideira",
+      "matches": [
+        "assets/frigideira.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "almofada",
+      "slug": "almofada",
+      "matches": [
+        "assets/almofada.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Almofada",
+      "slug": "almofada",
+      "matches": [
+        "assets/almofada.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "chapeu",
+      "slug": "chapeu",
+      "matches": [
+        "assets/chapeu.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Chapéu",
+      "slug": "chapeu",
+      "matches": [
+        "assets/chapeu.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "vagoneta",
+      "slug": "vagoneta",
+      "matches": [
+        "assets/vagoneta.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "vigas",
+      "slug": "vigas",
+      "matches": [
+        "assets/vigas.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Vigas",
+      "slug": "vigas",
+      "matches": [
+        "assets/vigas.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "correntes",
+      "slug": "correntes",
+      "matches": [
+        "assets/correntes.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Correntes",
+      "slug": "correntes",
+      "matches": [
+        "assets/correntes.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "martelo",
+      "slug": "martelo",
+      "matches": [
+        "assets/martelo.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Martelo",
+      "slug": "martelo",
+      "matches": [
+        "assets/martelo.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "peixe",
+      "slug": "peixe",
+      "matches": [
+        "assets/peixe.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Peixe",
+      "slug": "peixe",
+      "matches": [
+        "assets/peixe.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "maca",
+      "slug": "maca",
+      "matches": [
+        "assets/maca.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Maçã",
+      "slug": "maca",
+      "matches": [
+        "assets/maca.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "almofada",
+      "slug": "almofada",
+      "matches": [
+        "assets/almofada.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Almofada",
+      "slug": "almofada",
+      "matches": [
+        "assets/almofada.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "vagoneta",
+      "slug": "vagoneta",
+      "matches": [
+        "assets/vagoneta.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "vagoneta",
+      "slug": "vagoneta",
+      "matches": [
+        "assets/vagoneta.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "pregos",
+      "slug": "pregos",
+      "matches": [
+        "assets/pregos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Pregos",
+      "slug": "pregos",
+      "matches": [
+        "assets/pregos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "parafusos",
+      "slug": "parafusos",
+      "matches": [
+        "assets/parafusos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Parafusos",
+      "slug": "parafusos",
+      "matches": [
+        "assets/parafusos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "alicate",
+      "slug": "alicate",
+      "matches": [
+        "assets/alicate.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Alicate",
+      "slug": "alicate",
+      "matches": [
+        "assets/alicate.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "chapeu",
+      "slug": "chapeu",
+      "matches": [
+        "assets/chapeu.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Chapéu",
+      "slug": "chapeu",
+      "matches": [
+        "assets/chapeu.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "flores",
+      "slug": "flores",
+      "matches": [
+        "assets/flores.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Flores",
+      "slug": "flores",
+      "matches": [
+        "assets/flores.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "bolo",
+      "slug": "bolo",
+      "matches": [
+        "assets/bolo.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Bolo",
+      "slug": "bolo",
+      "matches": [
+        "assets/bolo.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "vagoneta",
+      "slug": "vagoneta",
+      "matches": [
+        "assets/vagoneta.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "vagoneta",
+      "slug": "vagoneta",
+      "matches": [
+        "assets/vagoneta.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "vagoneta",
+      "slug": "vagoneta",
+      "matches": [
+        "assets/vagoneta.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "troncos",
+      "slug": "troncos",
+      "matches": [
+        "assets/troncos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Troncos",
+      "slug": "troncos",
+      "matches": [
+        "assets/troncos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "corda",
+      "slug": "corda",
+      "matches": [
+        "assets/corda.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Corda",
+      "slug": "corda",
+      "matches": [
+        "assets/corda.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "madeira",
+      "slug": "madeira",
+      "matches": [
+        "assets/madeira.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Madeira",
+      "slug": "madeira",
+      "matches": [
+        "assets/madeira.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "bola",
+      "slug": "bola",
+      "matches": [
+        "assets/bola.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Bola",
+      "slug": "bola",
+      "matches": [
+        "assets/bola.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "pena",
+      "slug": "pena",
+      "matches": [
+        "assets/pena.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Pena",
+      "slug": "pena",
+      "matches": [
+        "assets/pena.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "guarda_chuva",
+      "slug": "guarda-chuva",
+      "matches": [
+        "assets/guarda_chuva.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "lanterna-ativa",
+      "slug": "lanterna-ativa",
+      "matches": [
+        "assets/lanterna-ativa.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "lanterna-inativa",
+      "slug": "lanterna-inativa",
+      "matches": [
+        "assets/lanterna-inativa.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "corda",
+      "slug": "corda",
+      "matches": [
+        "assets/corda.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Corda",
+      "slug": "corda",
+      "matches": [
+        "assets/corda.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Correntes",
+      "slug": "correntes",
+      "matches": [
+        "assets/correntes.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "plataforma",
+      "slug": "plataforma",
+      "matches": [
+        "assets/plataforma.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Plataforma",
+      "slug": "plataforma",
+      "matches": [
+        "assets/plataforma.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "suporte_pesado",
+      "slug": "suporte-pesado",
+      "matches": [
+        "assets/suporte_pesado.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "pregos",
+      "slug": "pregos",
+      "matches": [
+        "assets/pregos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Pregos",
+      "slug": "pregos",
+      "matches": [
+        "assets/pregos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "parafusos",
+      "slug": "parafusos",
+      "matches": [
+        "assets/parafusos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Parafusos",
+      "slug": "parafusos",
+      "matches": [
+        "assets/parafusos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "caixa_ferramentas",
+      "slug": "caixa-ferramentas",
+      "matches": [
+        "assets/caixa-ferramentas.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "candeeiro",
+      "slug": "candeeiro",
+      "matches": [
+        "assets/candeeiro.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Candeeiro",
+      "slug": "candeeiro",
+      "matches": [
+        "assets/candeeiro.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "troncos",
+      "slug": "troncos",
+      "matches": [
+        "assets/troncos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Troncos",
+      "slug": "troncos",
+      "matches": [
+        "assets/troncos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "madeira",
+      "slug": "madeira",
+      "matches": [
+        "assets/madeira.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Madeira",
+      "slug": "madeira",
+      "matches": [
+        "assets/madeira.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "vigas",
+      "slug": "vigas",
+      "matches": [
+        "assets/vigas.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Vigas",
+      "slug": "vigas",
+      "matches": [
+        "assets/vigas.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "estrutura_reforcada",
+      "slug": "estrutura-reforcada",
+      "matches": [
+        "assets/estrutura_reforcada.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "runa_magica",
+      "slug": "runa-magica",
+      "matches": [
+        "assets/runa-magica.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Runa mágica",
+      "slug": "runa-magica",
+      "matches": [
+        "assets/runa-magica.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "cristal_pequeno",
+      "slug": "cristal-pequeno",
+      "matches": [
+        "assets/cristal-pequeno.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Cristal pequeno",
+      "slug": "cristal-pequeno",
+      "matches": [
+        "assets/cristal-pequeno.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "cristal_central",
+      "slug": "cristal-central",
+      "matches": [
+        "assets/cristal-central.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Cristal central",
+      "slug": "cristal-central",
+      "matches": [
+        "assets/cristal-central.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "mecanismo_magico",
+      "slug": "mecanismo-magico",
+      "matches": [
+        "assets/mecanismo-magico.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "Mecanismo mágico",
+      "slug": "mecanismo-magico",
+      "matches": [
+        "assets/mecanismo-magico.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "nucleo_magico",
+      "slug": "nucleo-magico",
+      "matches": [
+        "assets/nucleo_magico.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "secao_ponte",
+      "slug": "secao-ponte",
+      "matches": [
+        "assets/secao_ponte.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "energia_ativa",
+      "slug": "energia-ativa",
+      "matches": [
+        "assets/energia_ativa.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "plataforma",
+      "slug": "plataforma",
+      "matches": [
+        "assets/plataforma.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "suporte_pesado",
+      "slug": "suporte-pesado",
+      "matches": [
+        "assets/suporte_pesado.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "parafusos",
+      "slug": "parafusos",
+      "matches": [
+        "assets/parafusos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "caixa_ferramentas",
+      "slug": "caixa-ferramentas",
+      "matches": [
+        "assets/caixa-ferramentas.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "candeeiro",
+      "slug": "candeeiro",
+      "matches": [
+        "assets/candeeiro.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "madeira",
+      "slug": "madeira",
+      "matches": [
+        "assets/madeira.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "vigas",
+      "slug": "vigas",
+      "matches": [
+        "assets/vigas.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "estrutura_reforcada",
+      "slug": "estrutura-reforcada",
+      "matches": [
+        "assets/estrutura_reforcada.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "cristal_pequeno",
+      "slug": "cristal-pequeno",
+      "matches": [
+        "assets/cristal-pequeno.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "cristal_central",
+      "slug": "cristal-central",
+      "matches": [
+        "assets/cristal-central.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "mecanismo_magico",
+      "slug": "mecanismo-magico",
+      "matches": [
+        "assets/mecanismo-magico.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "nucleo_magico",
+      "slug": "nucleo-magico",
+      "matches": [
+        "assets/nucleo_magico.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "secao_ponte",
+      "slug": "secao-ponte",
+      "matches": [
+        "assets/secao_ponte.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "energia_ativa",
+      "slug": "energia-ativa",
+      "matches": [
+        "assets/energia_ativa.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "corda",
+      "slug": "corda",
+      "matches": [
+        "assets/corda.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "suporte_pesado",
+      "slug": "suporte-pesado",
+      "matches": [
+        "assets/suporte_pesado.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "corda",
+      "slug": "corda",
+      "matches": [
+        "assets/corda.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "plataforma",
+      "slug": "plataforma",
+      "matches": [
+        "assets/plataforma.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "suporte_pesado",
+      "slug": "suporte-pesado",
+      "matches": [
+        "assets/suporte_pesado.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "pregos",
+      "slug": "pregos",
+      "matches": [
+        "assets/pregos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "candeeiro",
+      "slug": "candeeiro",
+      "matches": [
+        "assets/candeeiro.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "pregos",
+      "slug": "pregos",
+      "matches": [
+        "assets/pregos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "parafusos",
+      "slug": "parafusos",
+      "matches": [
+        "assets/parafusos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "caixa_ferramentas",
+      "slug": "caixa-ferramentas",
+      "matches": [
+        "assets/caixa-ferramentas.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "candeeiro",
+      "slug": "candeeiro",
+      "matches": [
+        "assets/candeeiro.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "troncos",
+      "slug": "troncos",
+      "matches": [
+        "assets/troncos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "estrutura_reforcada",
+      "slug": "estrutura-reforcada",
+      "matches": [
+        "assets/estrutura_reforcada.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "troncos",
+      "slug": "troncos",
+      "matches": [
+        "assets/troncos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "madeira",
+      "slug": "madeira",
+      "matches": [
+        "assets/madeira.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "vigas",
+      "slug": "vigas",
+      "matches": [
+        "assets/vigas.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "estrutura_reforcada",
+      "slug": "estrutura-reforcada",
+      "matches": [
+        "assets/estrutura_reforcada.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "runa_magica",
+      "slug": "runa-magica",
+      "matches": [
+        "assets/runa-magica.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "nucleo_magico",
+      "slug": "nucleo-magico",
+      "matches": [
+        "assets/nucleo_magico.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "runa_magica",
+      "slug": "runa-magica",
+      "matches": [
+        "assets/runa-magica.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "cristal_pequeno",
+      "slug": "cristal-pequeno",
+      "matches": [
+        "assets/cristal-pequeno.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "cristal_central",
+      "slug": "cristal-central",
+      "matches": [
+        "assets/cristal-central.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "mecanismo_magico",
+      "slug": "mecanismo-magico",
+      "matches": [
+        "assets/mecanismo-magico.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "nucleo_magico",
+      "slug": "nucleo-magico",
+      "matches": [
+        "assets/nucleo_magico.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "corda",
+      "slug": "corda",
+      "matches": [
+        "assets/corda.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "corda",
+      "slug": "corda",
+      "matches": [
+        "assets/corda.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "pregos",
+      "slug": "pregos",
+      "matches": [
+        "assets/pregos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "pregos",
+      "slug": "pregos",
+      "matches": [
+        "assets/pregos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "troncos",
+      "slug": "troncos",
+      "matches": [
+        "assets/troncos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "troncos",
+      "slug": "troncos",
+      "matches": [
+        "assets/troncos.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "runa_magica",
+      "slug": "runa-magica",
+      "matches": [
+        "assets/runa-magica.png"
+      ]
+    },
+    {
+      "file": "js/mini-jogos.js",
+      "value": "runa_magica",
+      "slug": "runa-magica",
+      "matches": [
+        "assets/runa-magica.png"
+      ]
+    },
+    {
+      "file": "js/script.js",
+      "value": "oficina",
+      "slug": "oficina",
+      "matches": [
+        "assets/oficina.png"
+      ]
+    },
+    {
+      "file": "js/script.js",
+      "value": "oficina",
+      "slug": "oficina",
+      "matches": [
+        "assets/oficina.png"
+      ]
+    },
+    {
+      "file": "js/script.js",
+      "value": "Oficina",
+      "slug": "oficina",
+      "matches": [
+        "assets/oficina.png"
+      ]
+    },
+    {
+      "file": "js/script.js",
+      "value": "oficina",
+      "slug": "oficina",
+      "matches": [
+        "assets/oficina.png"
+      ]
+    },
+    {
+      "file": "js/script.js",
+      "value": "Oficina",
+      "slug": "oficina",
+      "matches": [
+        "assets/oficina.png"
+      ]
+    },
+    {
+      "file": "js/script.js",
+      "value": "Oficina",
+      "slug": "oficina",
+      "matches": [
+        "assets/oficina.png"
+      ]
+    },
+    {
+      "file": "js/script.js",
+      "value": "Oficina",
+      "slug": "oficina",
+      "matches": [
+        "assets/oficina.png"
+      ]
+    },
+    {
+      "file": "js/script.js",
+      "value": "Oficina",
+      "slug": "oficina",
+      "matches": [
+        "assets/oficina.png"
+      ]
+    },
+    {
+      "file": "js/script.js",
+      "value": "oficina",
+      "slug": "oficina",
+      "matches": [
+        "assets/oficina.png"
+      ]
+    }
+  ],
+  "systems": {
+    "oficina_ponte1_caixas": [
+      {
+        "file": "css/mini-jogos.css",
+        "score": 50
+      },
+      {
+        "file": "css/style.css",
+        "score": 4
+      },
+      {
+        "file": "js/mini-jogos.js",
+        "score": 86
+      },
+      {
+        "file": "js/script.js",
+        "score": 100
+      }
+    ],
+    "mini_jogo_barcos": [
+      {
+        "file": "css/mini-jogos.css",
+        "score": 651
+      },
+      {
+        "file": "css/style.css",
+        "score": 25
+      },
+      {
+        "file": "js/mini-jogos.js",
+        "score": 1177
+      },
+      {
+        "file": "js/script.js",
+        "score": 116
+      }
+    ],
+    "ponte2": [
+      {
+        "file": "css/mini-jogos.css",
+        "score": 3
+      },
+      {
+        "file": "css/style.css",
+        "score": 3
+      },
+      {
+        "file": "js/mini-jogos.js",
+        "score": 91
+      },
+      {
+        "file": "js/script.js",
+        "score": 64
+      }
+    ],
+    "ponte3_merge": [
+      {
+        "file": "css/mini-jogos.css",
+        "score": 18
+      },
+      {
+        "file": "css/style.css",
+        "score": 1
+      },
+      {
+        "file": "js/mini-jogos.js",
+        "score": 144
+      },
+      {
+        "file": "js/script.js",
+        "score": 18
+      }
+    ],
+    "mapa": [
+      {
+        "file": "css/mini-jogos.css",
+        "score": 299
+      },
+      {
+        "file": "css/style.css",
+        "score": 47
+      },
+      {
+        "file": "index.html",
+        "score": 9
+      },
+      {
+        "file": "js/mini-jogos.js",
+        "score": 370
+      },
+      {
+        "file": "js/script.js",
+        "score": 480
+      }
+    ],
+    "avatares": [
+      {
+        "file": "css/style.css",
+        "score": 246
+      },
+      {
+        "file": "ferramentas/auditoria-referencias.js",
+        "score": 1
+      },
+      {
+        "file": "index.html",
+        "score": 39
+      },
+      {
+        "file": "js/script.js",
+        "score": 65
+      }
+    ]
+  }
+}

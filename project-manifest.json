@@ -1,0 +1,551 @@
+{
+  "versao": "v12_arquitetura",
+  "nota": "Estrutura reorganizada de forma conservadora; CSS e JS separados em pastas; assets mantidos; .git removido do pacote.",
+  "ficheiros_total": 136,
+  "ficheiros": [
+    {
+      "path": "README.md",
+      "size_bytes": 1219
+    },
+    {
+      "path": "assets/avatar-engracado-1.png",
+      "size_bytes": 202400
+    },
+    {
+      "path": "assets/avatar-engracado-2.png",
+      "size_bytes": 219101
+    },
+    {
+      "path": "assets/avatar-menina-europeia.png",
+      "size_bytes": 210290
+    },
+    {
+      "path": "assets/avatar-menina-nepalesa-bengali.png",
+      "size_bytes": 182674
+    },
+    {
+      "path": "assets/avatar-menino-europeu.png",
+      "size_bytes": 185789
+    },
+    {
+      "path": "assets/avatar-menino-nepales-bengali.png",
+      "size_bytes": 195090
+    },
+    {
+      "path": "assets/avatares.png",
+      "size_bytes": 2649065
+    },
+    {
+      "path": "assets/barcos-rio/barco.png",
+      "size_bytes": 2398828
+    },
+    {
+      "path": "assets/barcos-rio/fundo-rio.png",
+      "size_bytes": 2739762
+    },
+    {
+      "path": "assets/fundo-inicial.png",
+      "size_bytes": 2880610
+    },
+    {
+      "path": "assets/fundo-perfil.png",
+      "size_bytes": 2577799
+    },
+    {
+      "path": "assets/mapa-base.png",
+      "size_bytes": 5083517
+    },
+    {
+      "path": "assets/mapa-completo.png",
+      "size_bytes": 5138268
+    },
+    {
+      "path": "assets/mapa-ponte1-ponte2.png",
+      "size_bytes": 4845706
+    },
+    {
+      "path": "assets/mapa-ponte1.png",
+      "size_bytes": 4991750
+    },
+    {
+      "path": "assets/materiais/caixas/caixa-aberta.png",
+      "size_bytes": 2503562
+    },
+    {
+      "path": "assets/materiais/caixas/caixa-fechada.png",
+      "size_bytes": 2440755
+    },
+    {
+      "path": "assets/materiais/oficina.png",
+      "size_bytes": 2285479
+    },
+    {
+      "path": "assets/materiais/tentativa1/bola.png",
+      "size_bytes": 2505756
+    },
+    {
+      "path": "assets/materiais/tentativa1/corda.png",
+      "size_bytes": 2461087
+    },
+    {
+      "path": "assets/materiais/tentativa1/maca.png",
+      "size_bytes": 2343716
+    },
+    {
+      "path": "assets/materiais/tentativa1/madeira.png",
+      "size_bytes": 1361794
+    },
+    {
+      "path": "assets/materiais/tentativa1/pena.png",
+      "size_bytes": 2347752
+    },
+    {
+      "path": "assets/materiais/tentativa1/pregos.png",
+      "size_bytes": 2313738
+    },
+    {
+      "path": "assets/materiais/tentativa2/chapeu.png",
+      "size_bytes": 2548382
+    },
+    {
+      "path": "assets/materiais/tentativa2/flores.png",
+      "size_bytes": 2850904
+    },
+    {
+      "path": "assets/materiais/tentativa2/martelo.png",
+      "size_bytes": 2390230
+    },
+    {
+      "path": "assets/materiais/tentativa2/parafusos.png",
+      "size_bytes": 2439131
+    },
+    {
+      "path": "assets/materiais/tentativa2/peixe.png",
+      "size_bytes": 2508758
+    },
+    {
+      "path": "assets/materiais/tentativa2/troncos.png",
+      "size_bytes": 2575670
+    },
+    {
+      "path": "assets/materiais/tentativa3/alicate.png",
+      "size_bytes": 2413994
+    },
+    {
+      "path": "assets/materiais/tentativa3/almofada.png",
+      "size_bytes": 2465998
+    },
+    {
+      "path": "assets/materiais/tentativa3/bolo.png",
+      "size_bytes": 2700862
+    },
+    {
+      "path": "assets/materiais/tentativa3/correntes.png",
+      "size_bytes": 2583910
+    },
+    {
+      "path": "assets/materiais/tentativa3/guarda_chuva.png",
+      "size_bytes": 2312616
+    },
+    {
+      "path": "assets/materiais/tentativa3/vigas.png",
+      "size_bytes": 2756374
+    },
+    {
+      "path": "assets/materiais-barcos/almofada.png",
+      "size_bytes": 2465998
+    },
+    {
+      "path": "assets/materiais-barcos/bola.png",
+      "size_bytes": 2505756
+    },
+    {
+      "path": "assets/materiais-barcos/bota.png",
+      "size_bytes": 2709234
+    },
+    {
+      "path": "assets/materiais-barcos/caixa-ferramentas.png",
+      "size_bytes": 2711349
+    },
+    {
+      "path": "assets/materiais-barcos/candeeiro.png",
+      "size_bytes": 1999415
+    },
+    {
+      "path": "assets/materiais-barcos/chapeu.png",
+      "size_bytes": 2548382
+    },
+    {
+      "path": "assets/materiais-barcos/cimento.png",
+      "size_bytes": 2970521
+    },
+    {
+      "path": "assets/materiais-barcos/correntes.png",
+      "size_bytes": 2583910
+    },
+    {
+      "path": "assets/materiais-barcos/frigideira.png",
+      "size_bytes": 2634554
+    },
+    {
+      "path": "assets/materiais-barcos/guarda_chuva.png",
+      "size_bytes": 2312616
+    },
+    {
+      "path": "assets/materiais-barcos/maca.png",
+      "size_bytes": 2343716
+    },
+    {
+      "path": "assets/materiais-barcos/martelo.png",
+      "size_bytes": 2390230
+    },
+    {
+      "path": "assets/materiais-barcos/materiais/corda.png",
+      "size_bytes": 2461087
+    },
+    {
+      "path": "assets/materiais-barcos/materiais/madeira.png",
+      "size_bytes": 1361794
+    },
+    {
+      "path": "assets/materiais-barcos/materiais/pregos.png",
+      "size_bytes": 2313738
+    },
+    {
+      "path": "assets/materiais-barcos/peixe.png",
+      "size_bytes": 2508758
+    },
+    {
+      "path": "assets/materiais-barcos/vaso-flor.png",
+      "size_bytes": 2883356
+    },
+    {
+      "path": "assets/materiais-barcos/vigas-madeira.png",
+      "size_bytes": 2756374
+    },
+    {
+      "path": "assets/oficina-ponte3/fundo-oficina3.png",
+      "size_bytes": 3681948
+    },
+    {
+      "path": "assets/oficina-ponte3/transportes/cabo-supenso.png",
+      "size_bytes": 356601
+    },
+    {
+      "path": "assets/oficina-ponte3/transportes/carril.png",
+      "size_bytes": 1273679
+    },
+    {
+      "path": "assets/oficina-ponte3/transportes/plataforma.png",
+      "size_bytes": 877658
+    },
+    {
+      "path": "assets/oficina-ponte3/transportes/vagoneta.png",
+      "size_bytes": 1833308
+    },
+    {
+      "path": "assets/ponte1/fundo-ponte1.png",
+      "size_bytes": 1867646
+    },
+    {
+      "path": "assets/ponte1/original-sem-ponte.png",
+      "size_bytes": 4150921
+    },
+    {
+      "path": "assets/ponte1/original.png",
+      "size_bytes": 5366405
+    },
+    {
+      "path": "assets/ponte1/peca1.png",
+      "size_bytes": 261484
+    },
+    {
+      "path": "assets/ponte1/peca2.png",
+      "size_bytes": 256706
+    },
+    {
+      "path": "assets/ponte1/peca3.png",
+      "size_bytes": 52657
+    },
+    {
+      "path": "assets/ponte1/peca4.png",
+      "size_bytes": 126147
+    },
+    {
+      "path": "assets/ponte1/peca5.png",
+      "size_bytes": 108581
+    },
+    {
+      "path": "assets/ponte1/peca6.png",
+      "size_bytes": 42174
+    },
+    {
+      "path": "assets/ponte1/peca7.png",
+      "size_bytes": 47000
+    },
+    {
+      "path": "assets/ponte1/peca8.png",
+      "size_bytes": 77689
+    },
+    {
+      "path": "assets/ponte1/peca9.png",
+      "size_bytes": 112793
+    },
+    {
+      "path": "assets/ponte1/ponte-construida.png",
+      "size_bytes": 2592960
+    },
+    {
+      "path": "assets/ponte2/cristal-central.png",
+      "size_bytes": 2764560
+    },
+    {
+      "path": "assets/ponte2/cristal-pequeno.png",
+      "size_bytes": 2373069
+    },
+    {
+      "path": "assets/ponte2/efeito-ativacao.png",
+      "size_bytes": 2337749
+    },
+    {
+      "path": "assets/ponte2/efeito-sucesso.png",
+      "size_bytes": 2548831
+    },
+    {
+      "path": "assets/ponte2/energia-espiral.png",
+      "size_bytes": 2215152
+    },
+    {
+      "path": "assets/ponte2/energia-falha.png",
+      "size_bytes": 2344385
+    },
+    {
+      "path": "assets/ponte2/energia-fluxo.png",
+      "size_bytes": 2230172
+    },
+    {
+      "path": "assets/ponte2/energia-fragmentos.png",
+      "size_bytes": 1820581
+    },
+    {
+      "path": "assets/ponte2/lanterna-ativa.png",
+      "size_bytes": 2685611
+    },
+    {
+      "path": "assets/ponte2/lanterna-inativa.png",
+      "size_bytes": 2625687
+    },
+    {
+      "path": "assets/ponte2/mecanismo-magico.png",
+      "size_bytes": 3022318
+    },
+    {
+      "path": "assets/ponte2/ponte-ativa.png",
+      "size_bytes": 2953910
+    },
+    {
+      "path": "assets/ponte2/ponte-inativa.png",
+      "size_bytes": 2631209
+    },
+    {
+      "path": "assets/ponte2/runa-magica.png",
+      "size_bytes": 1936189
+    },
+    {
+      "path": "assets/ponte3/alicate.png",
+      "size_bytes": 2413994
+    },
+    {
+      "path": "assets/ponte3/cabo-supenso.png",
+      "size_bytes": 356601
+    },
+    {
+      "path": "assets/ponte3/caixa-ferramentas.png",
+      "size_bytes": 2711349
+    },
+    {
+      "path": "assets/ponte3/candeeiro.png",
+      "size_bytes": 1999415
+    },
+    {
+      "path": "assets/ponte3/cimento.png",
+      "size_bytes": 2970521
+    },
+    {
+      "path": "assets/ponte3/corda.png",
+      "size_bytes": 2461087
+    },
+    {
+      "path": "assets/ponte3/correntes.png",
+      "size_bytes": 2583910
+    },
+    {
+      "path": "assets/ponte3/cristal-central.png",
+      "size_bytes": 2764560
+    },
+    {
+      "path": "assets/ponte3/cristal-pequeno.png",
+      "size_bytes": 2373069
+    },
+    {
+      "path": "assets/ponte3/energia_ativa.png",
+      "size_bytes": 1530369
+    },
+    {
+      "path": "assets/ponte3/estrutura_reforcada.png",
+      "size_bytes": 1696082
+    },
+    {
+      "path": "assets/ponte3/lanterna-ativa.png",
+      "size_bytes": 2685611
+    },
+    {
+      "path": "assets/ponte3/madeira.png",
+      "size_bytes": 1361794
+    },
+    {
+      "path": "assets/ponte3/martelo.png",
+      "size_bytes": 2390230
+    },
+    {
+      "path": "assets/ponte3/mecanismo-magico.png",
+      "size_bytes": 3022318
+    },
+    {
+      "path": "assets/ponte3/nucleo_magico.png",
+      "size_bytes": 1994126
+    },
+    {
+      "path": "assets/ponte3/parafusos.png",
+      "size_bytes": 2439131
+    },
+    {
+      "path": "assets/ponte3/plataforma.png",
+      "size_bytes": 877658
+    },
+    {
+      "path": "assets/ponte3/ponte3_estado_0.png",
+      "size_bytes": 2525041
+    },
+    {
+      "path": "assets/ponte3/ponte3_estado_1.png",
+      "size_bytes": 2624578
+    },
+    {
+      "path": "assets/ponte3/ponte3_estado_2.png",
+      "size_bytes": 2706311
+    },
+    {
+      "path": "assets/ponte3/ponte3_estado_final.png",
+      "size_bytes": 2715715
+    },
+    {
+      "path": "assets/ponte3/pregos.png",
+      "size_bytes": 2313738
+    },
+    {
+      "path": "assets/ponte3/runa-magica.png",
+      "size_bytes": 1936189
+    },
+    {
+      "path": "assets/ponte3/secao_ponte.png",
+      "size_bytes": 2888518
+    },
+    {
+      "path": "assets/ponte3/suporte_pesado.png",
+      "size_bytes": 2151051
+    },
+    {
+      "path": "assets/ponte3/troncos.png",
+      "size_bytes": 2575670
+    },
+    {
+      "path": "assets/ponte3/vigas-madeira.png",
+      "size_bytes": 2756374
+    },
+    {
+      "path": "assets/ponte3/vigas.png",
+      "size_bytes": 2756374
+    },
+    {
+      "path": "assets/sons/click.ogg",
+      "size_bytes": 4656
+    },
+    {
+      "path": "assets/sons/erro.mp3",
+      "size_bytes": 25920
+    },
+    {
+      "path": "assets/sons/erro_forte.mp3",
+      "size_bytes": 22465
+    },
+    {
+      "path": "assets/sons/hover.ogg",
+      "size_bytes": 4701
+    },
+    {
+      "path": "assets/sons/inicio.mp3",
+      "size_bytes": 45975
+    },
+    {
+      "path": "assets/sons/musica_fundo.mp3",
+      "size_bytes": 2458435
+    },
+    {
+      "path": "assets/sons/ponte.mp3",
+      "size_bytes": 42240
+    },
+    {
+      "path": "assets/sons/sucesso.mp3",
+      "size_bytes": 20898
+    },
+    {
+      "path": "assets/sons/toggle.ogg",
+      "size_bytes": 6270
+    },
+    {
+      "path": "assets/ui/pergaminho-narrativo.png",
+      "size_bytes": 2390325
+    },
+    {
+      "path": "css/mini-jogos.css",
+      "size_bytes": 116147
+    },
+    {
+      "path": "css/style.css",
+      "size_bytes": 60710
+    },
+    {
+      "path": "docs/01_auditoria_estrutura.md",
+      "size_bytes": 1848
+    },
+    {
+      "path": "docs/02_mapa_dependencias.md",
+      "size_bytes": 1489
+    },
+    {
+      "path": "docs/03_plano_estabilizacao.md",
+      "size_bytes": 1696
+    },
+    {
+      "path": "docs/04_checklist_testes.md",
+      "size_bytes": 1882
+    },
+    {
+      "path": "ferramentas/auditoria-referencias.js",
+      "size_bytes": 2010
+    },
+    {
+      "path": "index.html",
+      "size_bytes": 5528
+    },
+    {
+      "path": "js/mini-jogos.js",
+      "size_bytes": 104728
+    },
+    {
+      "path": "js/script.js",
+      "size_bytes": 121305
+    }
+  ]
+}
